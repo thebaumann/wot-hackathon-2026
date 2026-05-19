@@ -7,7 +7,7 @@
           <SectionTitle
             badge="FAQ"
             :title="'Frequently asked questions.'"
-            :subtitle="audience === 'operator' ? 'Everything you need to know before getting started.' : 'Key questions from decision-makers.'"
+            :subtitle="audience === 'operator' ? 'Everything you need to know before getting started.' : audience === 'management' ? 'Key questions from decision-makers.' : 'Key questions from quality and QA teams.'"
           />
           <div class="mt-8 p-5 bg-white rounded-xl border border-trumpf-gray-mid">
             <p class="text-sm text-trumpf-gray leading-relaxed mb-4">

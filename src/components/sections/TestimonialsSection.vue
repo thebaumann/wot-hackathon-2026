@@ -3,7 +3,7 @@
     <div class="section-container">
       <SectionTitle
         badge="Customer Stories"
-        :title="audience === 'operator' ? 'Operators trust the Cutting Assistant.' : 'Business leaders rely on the numbers.'"
+        :title="audience === 'operator' ? 'Operators trust the Cutting Assistant.' : audience === 'management' ? 'Business leaders rely on the numbers.' : 'Quality teams rely on the data.'"
         centered
         class="mb-12 [&_.section-title]:text-white [&_.section-subtitle]:text-gray-400"
       />

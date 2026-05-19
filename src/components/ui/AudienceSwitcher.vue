@@ -55,7 +55,8 @@ const container = ref(null)
 
 const options = [
   { value: 'operator', labelKey: 'audience.operator' },
-  { value: 'management', labelKey: 'audience.management' }
+  { value: 'management', labelKey: 'audience.management' },
+  { value: 'quality', labelKey: 'audience.quality' }
 ]
 
 const currentOption = computed(() => options.find(o => o.value === audience.value) ?? options[0])

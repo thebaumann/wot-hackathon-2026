@@ -11,6 +11,7 @@
   "audience": {
     "operator": "Operador de máquina",
     "management": "Dirección / C-Level",
+    "quality": "Aseguramiento de calidad",
     "switch_label": "Soy"
   },
   "hero": {
@@ -26,6 +27,12 @@
       "subheadline": "El TRUMPF Cutting Assistant guía a su equipo en la optimización del filo de corte — ahorrando tiempo y costes de material, incluso con materiales no estándar o de calidad variable.",
       "cta_primary": "Solicitar una demo",
       "cta_secondary": "Más información"
+    },
+    "quality": {
+      "headline": "Calidad medible. Reproducible. Documentada.",
+      "subheadline": "El TRUMPF Cutting Assistant proporciona métricas objetivas del filo de corte en micrómetros — evaluación de calidad reproducible, independiente del operador, para una documentación de procesos fiable.",
+      "cta_primary": "Explorar el método de medición",
+      "cta_secondary": "Más información"
     }
   },
   "stats": {
@@ -40,6 +47,12 @@
       { "value": 3, "suffix": "", "prefix": "", "label": "Pasos del escaneo a la solución" },
       { "value": 9, "suffix": "+", "prefix": "", "label": "Combinaciones material/gas (Bandwidth)" },
       { "value": 2, "suffix": "", "prefix": "", "label": "Series de máquinas: Highspeed & MD5" }
+    ],
+    "quality": [
+      { "value": 1, "suffix": "µm", "prefix": "<", "label": "Resolución de medición del escáner de mano" },
+      { "value": 100, "suffix": "%", "prefix": "", "label": "Medición objetiva e independiente del operador" },
+      { "value": 3, "suffix": "", "prefix": "", "label": "Parámetros de calidad documentados por escaneo" },
+      { "value": 2, "suffix": "", "prefix": "", "label": "Modos de optimización para resultados trazables" }
     ]
   },
   "features": {
@@ -137,6 +150,17 @@
         }
       ],
       "cta": "Solicitar una demostración del producto"
+    },
+    "quality": {
+      "title": "Aseguramiento de calidad respaldado por datos de medición sólidos.",
+      "subtitle": "Análisis objetivo del filo de corte — reproducible, documentable e independiente del juicio del operador.",
+      "kpis": [
+        { "value": "µm-preciso", "label": "Medición objetiva del filo de corte", "detail": "El escáner de mano mide la rugosidad y la altura de rebaba en micrómetros — valores reproducibles en lugar de inspección visual subjetiva" },
+        { "value": "100%", "label": "Evaluación independiente del operador", "detail": "Estándares de medición idénticos para todos los operadores — elimina la varianza de evaluación humana y refuerza la fiabilidad del proceso" },
+        { "value": "Trazable", "label": "Historial de optimización documentado", "detail": "Cada paso de optimización — resultado del escaneo, cambio de parámetros y confirmación — queda registrado para trazabilidad total" },
+        { "value": "Conforme", "label": "Documentación de calidad según estándares industriales", "detail": "La calidad medible del filo de corte proporciona evidencias sólidas para auditorías internas y requisitos de clientes" }
+      ],
+      "cta": "Solicitar detalles del método de medición"
     }
   },
   "demo": {
@@ -148,6 +172,11 @@
     "management": {
       "title": "Una presentación rápida del producto.",
       "subtitle": "Vea cómo el TRUMPF Cutting Assistant guía a su equipo en la optimización del filo de corte — ahorrando costes de material y mejorando la consistencia de la calidad.",
+      "cta": "Solicitar una demostración"
+    },
+    "quality": {
+      "title": "Medición objetiva en la práctica.",
+      "subtitle": "Vea cómo el escáner de mano proporciona métricas reproducibles del filo de corte y cómo las optimizaciones se documentan para trazabilidad total.",
       "cta": "Solicitar una demostración"
     },
     "play_label": "Reproducir vídeo",
@@ -193,6 +222,26 @@
         "role": "Directora general",
         "company": "Metaltécnica Sur S.L."
       }
+    ],
+    "quality": [
+      {
+        "quote": "Por fin podemos demostrar la calidad de corte con mediciones objetivas — no solo con inspección visual subjetiva. El escáner proporciona valores reproducibles de rugosidad y altura de rebaba que incorporamos directamente a nuestra documentación de calidad.",
+        "name": "Dra. Monika Hauser",
+        "role": "Responsable de aseguramiento de calidad",
+        "company": "Precision Sheet Metal AG"
+      },
+      {
+        "quote": "La medición independiente del operador ha reducido significativamente nuestra varianza de inspección. Antes, distintos inspectores valoraban el mismo filo de forma diferente — ahora existe un único número fiable.",
+        "name": "Stefan Reimann",
+        "role": "Ingeniero de calidad",
+        "company": "Proveedor automotriz sur de Alemania"
+      },
+      {
+        "quote": "Para nuestras auditorías necesitamos evidencias de calidad trazables. El Cutting Assistant documenta cada paso de optimización — eso es exactamente lo que requiere nuestro sistema de gestión de calidad.",
+        "name": "Julia Brandt",
+        "role": "Gestora de calidad",
+        "company": "Fabricación dispositivos médicos GmbH"
+      }
     ]
   },
   "integration": {
@@ -228,6 +277,28 @@
       {
         "q": "¿Qué mide el escáner de mano?",
         "a": "El escáner de mano proporciona una evaluación objetiva del filo de corte — mostrando la rugosidad y la altura de rebaba en micrómetros. Esto sustituye la inspección visual subjetiva por datos de calidad medibles y reproducibles."
+      }
+    ],
+    "quality": [
+      {
+        "q": "¿Qué parámetros mide el escáner de mano?",
+        "a": "El escáner de mano mide la rugosidad (valor Ra) y la altura de rebaba del filo de corte en micrómetros. Los valores se muestran directamente en el Cutting Assistant y pueden utilizarse para la documentación de calidad."
+      },
+      {
+        "q": "¿Qué tan reproducibles son los resultados de medición?",
+        "a": "El escáner de mano proporciona mediciones objetivas e independientes del operador — a diferencia de la inspección visual subjetiva. Las mismas condiciones producen los mismos resultados de medición, independientemente del miembro del equipo que realice el escaneo."
+      },
+      {
+        "q": "¿Se documentan los pasos de optimización y los resultados de medición?",
+        "a": "Sí. El Cutting Assistant registra cada paso de optimización — incluyendo resultado del escaneo, problema de corte seleccionado, modo de optimización y parámetros aplicados. Esto permite la trazabilidad completa del historial del proceso."
+      },
+      {
+        "q": "¿Puede integrarse el Cutting Assistant en sistemas de gestión de calidad existentes?",
+        "a": "Combinado con el software Oseon de TRUMPF, el Cutting Assistant puede integrarse en un entorno de producción conectado. Oseon permite el análisis y la documentación centralizados de datos de calidad en todas las máquinas."
+      },
+      {
+        "q": "¿Es adecuado el Cutting Assistant para auditorías de calidad?",
+        "a": "Los valores de medición objetivos y el historial de optimización documentado proporcionan evidencias sólidas para auditorías internas y externas. La calidad medible del filo de corte refuerza la documentación de calidad frente a métodos de evaluación puramente subjetivos."
       }
     ],
     "management": [
@@ -273,6 +344,12 @@
       "subheadline": "El TRUMPF Cutting Assistant ayuda a su equipo a optimizar los parámetros de corte — guiado, objetivo y adecuado para materiales no estándar.",
       "btn_primary": "Contactar con ventas TRUMPF",
       "btn_secondary": "Solicitar una demostración"
+    },
+    "quality": {
+      "headline": "Mida y documente la calidad de corte objetivamente.",
+      "subheadline": "El TRUMPF Cutting Assistant proporciona mediciones reproducibles del filo de corte y documentación completa del proceso — para un aseguramiento de calidad fiable.",
+      "btn_primary": "Solicitar detalles de medición",
+      "btn_secondary": "Solicitar una demostración"
     }
   },
   "footer": {
@@ -293,6 +370,7 @@
     "typing": "Escribiendo...",
     "greeting_operator": "¡Hola! Soy el asistente IA de TRUMPF. Puedo ayudarle con la configuración, materiales y parámetros. ¿En qué puedo ayudarle?",
     "greeting_management": "¡Hola! Soy el asistente IA de TRUMPF. Puedo responder sus preguntas sobre ROI, implementación y licencias. ¿Cómo puedo ayudarle?",
+    "greeting_quality": "¡Hola! Soy el asistente IA de TRUMPF. Puedo responder sus preguntas sobre tecnología de medición, documentación de calidad, reproducibilidad y procesos de inspección. ¿Cómo puedo ayudarle?",
     "placeholder": "Hágame una pregunta sobre el Cutting Assistant...",
     "error": "Tengo problemas de conexión ahora mismo. Por favor, inténtelo de nuevo.",
     "suggestions": {
@@ -305,6 +383,11 @@
         "¿Cuál es el plazo típico de ROI?",
         "¿Cómo se integra con nuestro MES?",
         "¿Cómo es el modelo de licencia?"
+      ],
+      "quality": [
+        "¿Qué tan reproducibles son las mediciones del escáner?",
+        "¿Qué valores de medición se capturan para la documentación?",
+        "¿Puede integrarse con nuestro SGC?"
       ]
     },
     "dummy_responses": {

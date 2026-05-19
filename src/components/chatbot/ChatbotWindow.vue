@@ -77,8 +77,7 @@ const showSuggestions = computed(() => userMessageCount.value < 2)
 
 const suggestions = computed(() => {
   const lang = currentLang.value // reactive dep — re-runs when language changes
-  const key = audience.value === 'management' ? 'chatbot.suggestions.management' : 'chatbot.suggestions.operator'
-  const result = i18next.t(key, { returnObjects: true })
+  const result = i18next.t(`chatbot.suggestions.${audience.value}`, { returnObjects: true })
   return Array.isArray(result) ? result : []
 })
 
