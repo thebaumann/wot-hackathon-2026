@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --trumpf-red: #E2001A;
+    --trumpf-red-dark: #B8001A;
+    --trumpf-dark: #1A1A1A;
+    --trumpf-gray: #4A4A4A;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-trumpf-dark antialiased;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-trumpf-red text-white font-semibold text-sm tracking-wide uppercase rounded transition-colors duration-200 hover:bg-trumpf-red-dark focus:outline-none focus:ring-2 focus:ring-trumpf-red focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white font-semibold text-sm tracking-wide uppercase rounded transition-colors duration-200 hover:bg-white hover:text-trumpf-dark focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-trumpf-red text-trumpf-red font-semibold text-sm tracking-wide uppercase rounded transition-colors duration-200 hover:bg-trumpf-red hover:text-white focus:outline-none focus:ring-2 focus:ring-trumpf-red focus:ring-offset-2;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-trumpf-dark leading-tight;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-trumpf-gray mt-4 leading-relaxed;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-trumpf-gray-mid p-6 transition-shadow duration-200 hover:shadow-md;
+  }
+}
+
+/* Audience fade transition */
+.audience-fade-enter-active,
+.audience-fade-leave-active {
+  transition: opacity 250ms ease, transform 250ms ease;
+}
+
+.audience-fade-enter-from,
+.audience-fade-leave-to {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Sticky header shadow on scroll */
+.header-scrolled {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+}

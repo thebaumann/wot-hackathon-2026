@@ -1,1 +1,7 @@
-/.devcontainer//claude.sh/claude.sh.bak
+/.devcontainer/
+/claude.sh
+/claude.sh.bak
+node_modules/
+dist/
+.env
+*.local
