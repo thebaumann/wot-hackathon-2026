@@ -34,20 +34,24 @@
           </a>
         </div>
 
-        <!-- Mobile hamburger -->
-        <button
-          @click="mobileOpen = !mobileOpen"
-          class="lg:hidden p-2 rounded text-trumpf-gray hover:text-trumpf-dark"
-          :aria-expanded="mobileOpen"
-          aria-label="Toggle menu"
-        >
-          <svg v-if="!mobileOpen" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-          <svg v-else class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
+        <!-- Mobile: controls + hamburger -->
+        <div class="lg:hidden flex items-center gap-2">
+          <AudienceSwitcher />
+          <LanguageSwitcher />
+          <button
+            @click="mobileOpen = !mobileOpen"
+            class="p-2 rounded text-trumpf-gray hover:text-trumpf-dark"
+            :aria-expanded="mobileOpen"
+            aria-label="Toggle menu"
+          >
+            <svg v-if="!mobileOpen" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg v-else class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -73,9 +77,7 @@
               {{ $t(`nav.${item.key}`) }}
             </a>
           </nav>
-          <div class="pt-2 border-t border-trumpf-gray-mid space-y-3">
-            <AudienceSwitcher />
-            <LanguageSwitcher />
+          <div class="pt-2 border-t border-trumpf-gray-mid">
             <a href="#contact" @click="mobileOpen = false" class="btn-primary w-full text-center text-xs py-2.5">
               {{ $t('nav.request_demo') }}
             </a>
