@@ -11,6 +11,7 @@
   "audience": {
     "operator": "Maschinenführer",
     "management": "Management / C-Level",
+    "quality": "Qualitätssicherung",
     "switch_label": "Ich bin"
   },
   "hero": {
@@ -25,6 +26,12 @@
       "headline": "Bessere Schnittqualität. Weniger Ausschuss. Schneller.",
       "subheadline": "Der TRUMPF Cutting Assistant führt Ihr Team durch die Schnittkanten-Optimierung — spart Zeit und Materialkosten, auch bei nicht-lasergängigem oder qualitätsschwankendem Material.",
       "cta_primary": "Demo anfragen",
+      "cta_secondary": "Mehr erfahren"
+    },
+    "quality": {
+      "headline": "Messbare Qualität. Reproduzierbar. Lückenlos dokumentiert.",
+      "subheadline": "Der TRUMPF Cutting Assistant liefert objektive Schnittkantenmetriken in Mikrometern — reproduzierbare Qualitätsbewertung, unabhängig vom Bediener, für zuverlässige Prozessdokumentation.",
+      "cta_primary": "Messmethodik ansehen",
       "cta_secondary": "Mehr erfahren"
     }
   },
@@ -79,6 +86,32 @@
         "suffix": "",
         "prefix": "",
         "label": "Maschinenreihen: Highspeed & MD5"
+      }
+    ],
+    "quality": [
+      {
+        "value": 1,
+        "suffix": "µm",
+        "prefix": "<",
+        "label": "Messauflösung des Handscanners"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "prefix": "",
+        "label": "Objektive, bedienerunabhängige Messung"
+      },
+      {
+        "value": 3,
+        "suffix": "",
+        "prefix": "",
+        "label": "Dokumentierte Qualitätsparameter pro Scan"
+      },
+      {
+        "value": 2,
+        "suffix": "",
+        "prefix": "",
+        "label": "Optimierungsmodi für nachvollziehbare Ergebnisse"
       }
     ]
   },
@@ -177,6 +210,33 @@
         }
       ],
       "cta": "Produktdemonstration anfragen"
+    },
+    "quality": {
+      "title": "Qualitätssicherung auf Basis belastbarer Messdaten.",
+      "subtitle": "Objektive Schnittkantenanalyse — reproduzierbar, dokumentierbar und unabhängig vom subjektiven Urteil des Bedieners.",
+      "kpis": [
+        {
+          "value": "µm-genau",
+          "label": "Objektive Schnittkantenmessung",
+          "detail": "Der Handscanner misst Rauheit und Grathöhe in Mikrometern — reproduzierbare Werte statt subjektiver Sichtprüfung"
+        },
+        {
+          "value": "100 %",
+          "label": "Bedienerunabhängige Bewertung",
+          "detail": "Gleiche Messstandards für alle Bediener — eliminiert menschliche Bewertungsvarianz und stärkt die Prozesssicherheit"
+        },
+        {
+          "value": "Lückenlos",
+          "label": "Dokumentierte Optimierungshistorie",
+          "detail": "Jeder Optimierungsschritt — Scan-Ergebnis, Parameteränderung und Bestätigung — wird nachvollziehbar festgehalten"
+        },
+        {
+          "value": "Konform",
+          "label": "Qualitätsdokumentation nach Industriestandard",
+          "detail": "Messbare Schnittkantenqualität liefert belastbare Nachweise für interne Audits und Kundenanforderungen"
+        }
+      ],
+      "cta": "Messmethodik anfragen"
     }
   },
   "demo": {
@@ -189,6 +249,11 @@
       "title": "Eine kurze Produktübersicht.",
       "subtitle": "Sehen Sie, wie der TRUMPF Cutting Assistant Ihr Team durch die Schnittkanten-Optimierung führt — spart Materialkosten und verbessert die Qualitätskonsistenz.",
       "cta": "Demonstration anfragen"
+    },
+    "quality": {
+      "title": "Objektive Messung in der Praxis.",
+      "subtitle": "Sehen Sie, wie der Handscanner reproduzierbare Schnittkantenmetriken liefert und wie Optimierungen nachvollziehbar dokumentiert werden.",
+      "cta": "Demo anfragen"
     },
     "play_label": "Video abspielen",
     "video_caption": "Cutting Assistant — Produktvideo"
@@ -232,6 +297,26 @@
         "name": "Maria González",
         "role": "Geschäftsführerin",
         "company": "Metall-Technik Süd"
+      }
+    ],
+    "quality": [
+      {
+        "quote": "Endlich können wir Schnittqualität mit objektiven Messwerten belegen — nicht mehr nur mit subjektiver Sichtprüfung. Der Scanner liefert reproduzierbare Rauheits- und Grathöhenwerte, die wir direkt in unsere Qualitätsdokumentation übernehmen.",
+        "name": "Dr. Monika Hauser",
+        "role": "Leiterin Qualitätssicherung",
+        "company": "Precision Blechfertigung AG"
+      },
+      {
+        "quote": "Die bedienerunabhängige Messung hat unsere Prüfvarianz deutlich reduziert. Früher beurteilten verschiedene Prüfer dieselbe Kante unterschiedlich — jetzt gibt es nur noch eine belastbare Zahl.",
+        "name": "Stefan Reimann",
+        "role": "QS-Ingenieur",
+        "company": "Automobilzulieferer Süddeutschland"
+      },
+      {
+        "quote": "Für unsere Audits brauchen wir nachvollziehbare Qualitätsnachweise. Der Cutting Assistant dokumentiert jeden Optimierungsschritt — das ist genau das, was unser Qualitätsmanagementsystem fordert.",
+        "name": "Julia Brandt",
+        "role": "Qualitätsmanagerin",
+        "company": "Medizintechnik Fertigung GmbH"
       }
     ]
   },
@@ -288,6 +373,28 @@
         "a": "Der Handscanner liefert eine objektive Bewertung der Schnittkante — zeigt Rauheit und Grathöhe in Mikrometern an. Dies ersetzt die subjektive Sichtprüfung durch reproduzierbare, messbare Qualitätsdaten."
       }
     ],
+    "quality": [
+      {
+        "q": "Welche Messgrößen erfasst der Handscanner?",
+        "a": "Der Handscanner misst Rauheit (Ra-Wert) und Grathöhe der Schnittkante in Mikrometern. Die Werte werden direkt im Cutting Assistant angezeigt und können für die Qualitätsdokumentation genutzt werden."
+      },
+      {
+        "q": "Wie reproduzierbar sind die Messergebnisse?",
+        "a": "Der Handscanner liefert objektive, bedienerunabhängige Messwerte — im Gegensatz zur subjektiven Sichtprüfung. Gleiche Bedingungen ergeben gleiche Messergebnisse, unabhängig davon, welcher Mitarbeiter den Scan durchführt."
+      },
+      {
+        "q": "Werden Optimierungsschritte und Messergebnisse dokumentiert?",
+        "a": "Ja. Der Cutting Assistant hält jeden Optimierungsschritt fest — einschließlich Scan-Ergebnis, gewähltem Schneidproblem, Optimierungsmodus und angewandten Parametern. Das ermöglicht eine lückenlose Nachverfolgung der Prozesshistorie."
+      },
+      {
+        "q": "Lässt sich der Cutting Assistant in bestehende Qualitätsmanagementsysteme integrieren?",
+        "a": "In Verbindung mit der TRUMPF-Software Oseon lässt sich der Cutting Assistant in eine vernetzte Produktionsumgebung einbinden. Oseon ermöglicht die zentrale Auswertung und Dokumentation von Qualitätsdaten über alle Maschinen hinweg."
+      },
+      {
+        "q": "Eignet sich der Cutting Assistant für Qualitätsaudits?",
+        "a": "Die objektiven Messwerte und die dokumentierte Optimierungshistorie liefern belastbare Nachweise für interne und externe Audits. Messbare Schnittkantenqualität stärkt die Qualitätsdokumentation gegenüber rein subjektiven Bewertungsverfahren."
+      }
+    ],
     "management": [
       {
         "q": "Wann wird AI mode verfügbar sein?",
@@ -331,6 +438,12 @@
       "subheadline": "Der TRUMPF Cutting Assistant hilft Ihrem Team, Schneidparameter zu optimieren — geführt, objektiv und geeignet für nicht-lasergängige Materialien.",
       "btn_primary": "TRUMPF-Vertrieb kontaktieren",
       "btn_secondary": "Demonstration anfragen"
+    },
+    "quality": {
+      "headline": "Schnittqualität objektiv messen und dokumentieren.",
+      "subheadline": "Der TRUMPF Cutting Assistant liefert reproduzierbare Schnittkantenmessungen und lückenlose Prozessdokumentation — für zuverlässige Qualitätssicherung.",
+      "btn_primary": "Messmethodik anfragen",
+      "btn_secondary": "Demo anfragen"
     }
   },
   "footer": {
@@ -351,6 +464,7 @@
     "typing": "Schreibt...",
     "greeting_operator": "Hallo! Ich bin der TRUMPF Cutting Assistant. Ich helfe Ihnen bei Einrichtung, Materialien, Parametern und Fehlersuche. Was möchten Sie wissen?",
     "greeting_management": "Hallo! Ich bin der TRUMPF Cutting Assistant. Ich beantworte Ihre Fragen zu ROI, Implementierung, Lizenzierung und Systemintegration. Wie kann ich helfen?",
+    "greeting_quality": "Hallo! Ich bin der TRUMPF Cutting Assistant. Ich beantworte Ihre Fragen zu Messtechnik, Qualitätsdokumentation, Reproduzierbarkeit und Prüfprozessen. Wie kann ich helfen?",
     "placeholder": "Stellen Sie mir eine Frage zum Cutting Assistant...",
     "error": "Es gibt gerade ein Verbindungsproblem. Bitte versuchen Sie es erneut.",
     "suggestions": {
@@ -363,6 +477,11 @@
         "Wie lange dauert die typische Amortisation?",
         "Wie lässt sich das in unser MES integrieren?",
         "Wie sieht das Lizenzmodell aus?"
+      ],
+      "quality": [
+        "Wie reproduzierbar sind die Scanner-Messungen?",
+        "Welche Messwerte werden für die Dokumentation erfasst?",
+        "Lässt sich das in unser QMS integrieren?"
       ]
     },
     "dummy_responses": {

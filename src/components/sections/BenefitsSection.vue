@@ -49,19 +49,19 @@
           </div>
         </div>
 
-        <!-- Management view: KPI grid -->
-        <div v-else :key="'management'">
+        <!-- Management / Quality view: KPI grid -->
+        <div v-else :key="audience">
           <div class="text-center mb-12">
             <SectionTitle
-              badge="Business Impact"
-              :title="$t('benefits.management.title')"
-              :subtitle="$t('benefits.management.subtitle')"
+              :badge="audience === 'quality' ? 'Quality Assurance' : 'Business Impact'"
+              :title="$t(`benefits.${audience}.title`)"
+              :subtitle="$t(`benefits.${audience}.subtitle`)"
               :centered="true"
             />
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div
-              v-for="(kpi, i) in managementKpis"
+              v-for="(kpi, i) in activeKpis"
               :key="i"
               class="bg-white rounded-xl p-8 border border-trumpf-gray-mid shadow-sm hover:shadow-md transition-shadow duration-200"
             >
@@ -73,7 +73,7 @@
             </div>
           </div>
           <div class="mt-8 text-center">
-            <a href="#contact" class="btn-outline">{{ $t('benefits.management.cta') }}</a>
+            <a href="#contact" class="btn-outline">{{ $t(`benefits.${audience}.cta`) }}</a>
           </div>
         </div>
       </Transition>
@@ -90,5 +90,5 @@ const audience = inject('audience')
 const { t } = useTranslation()
 
 const operatorSteps = computed(() => t('benefits.operator.steps', { returnObjects: true }) || [])
-const managementKpis = computed(() => t('benefits.management.kpis', { returnObjects: true }) || [])
+const activeKpis = computed(() => t(`benefits.${audience.value}.kpis`, { returnObjects: true }) || [])
 </script>

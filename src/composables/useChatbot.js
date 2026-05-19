@@ -34,6 +34,8 @@ i18next.on('languageChanged', () => {
 function buildSystemPrompt(audience) {
   const audienceContext = audience === 'management'
     ? 'CURRENT USER: C-Level Manager / Business Decision-Maker. Emphasize ROI, cost savings, competitive advantage, implementation timelines, and business impact. Avoid overly technical details unless asked.'
+    : audience === 'quality'
+    ? 'CURRENT USER: Quality Assurance Engineer / Quality Manager. Emphasize objective measurement, reproducibility, traceability, quality documentation, compliance, and measurable quality metrics. Focus on scanner measurement data, inspection repeatability, audit evidence, and quality system integration.'
     : 'CURRENT USER: Machine Operator. Emphasize practical steps, time savings, ease of use, material handling, and day-to-day operation. Use clear, direct language.'
 
   return `You are the TRUMPF Cutting Assistant AI — an expert support agent for TRUMPF's AI-powered laser cutting solution.
@@ -59,8 +61,9 @@ RULES:
 }
 
 function greetingFor(audience) {
-  const key = audience === 'management' ? 'chatbot.greeting_management' : 'chatbot.greeting_operator'
-  return i18next.t(key)
+  const validKeys = ['operator', 'management', 'quality']
+  const aud = validKeys.includes(audience) ? audience : 'operator'
+  return i18next.t(`chatbot.greeting_${aud}`)
 }
 
 function getLast20ApiMessages(msgs) {

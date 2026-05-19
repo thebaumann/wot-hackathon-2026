@@ -11,6 +11,7 @@
   "audience": {
     "operator": "Opérateur machine",
     "management": "Direction / C-Level",
+    "quality": "Assurance qualité",
     "switch_label": "Je suis"
   },
   "hero": {
@@ -26,6 +27,12 @@
       "subheadline": "Le TRUMPF Cutting Assistant guide votre équipe tout au long de l'optimisation des arêtes de coupe — économisant du temps et des coûts matières, même avec des nuances de matériaux non standard ou fluctuantes.",
       "cta_primary": "Demander une démo",
       "cta_secondary": "En savoir plus"
+    },
+    "quality": {
+      "headline": "Qualité mesurable. Reproductible. Entièrement documentée.",
+      "subheadline": "Le TRUMPF Cutting Assistant fournit des métriques objectives sur l'arête de coupe en micromètres — évaluation qualité reproductible, indépendante de l'opérateur, pour une documentation de processus fiable.",
+      "cta_primary": "Explorer la méthode de mesure",
+      "cta_secondary": "En savoir plus"
     }
   },
   "stats": {
@@ -40,6 +47,12 @@
       { "value": 3, "suffix": "", "prefix": "", "label": "Étapes du scan à la solution" },
       { "value": 9, "suffix": "+", "prefix": "", "label": "Combinaisons matériau/gaz (Bandwidth)" },
       { "value": 2, "suffix": "", "prefix": "", "label": "Séries de machines : Highspeed & MD5" }
+    ],
+    "quality": [
+      { "value": 1, "suffix": "µm", "prefix": "<", "label": "Résolution de mesure du scanner portatif" },
+      { "value": 100, "suffix": "%", "prefix": "", "label": "Mesure objective et indépendante de l'opérateur" },
+      { "value": 3, "suffix": "", "prefix": "", "label": "Paramètres qualité documentés par scan" },
+      { "value": 2, "suffix": "", "prefix": "", "label": "Modes d'optimisation pour des résultats traçables" }
     ]
   },
   "features": {
@@ -137,6 +150,17 @@
         }
       ],
       "cta": "Demander une démonstration produit"
+    },
+    "quality": {
+      "title": "Assurance qualité basée sur des données de mesure solides.",
+      "subtitle": "Analyse objective de l'arête de coupe — reproductible, documentable et indépendante du jugement de l'opérateur.",
+      "kpis": [
+        { "value": "µm-précis", "label": "Mesure objective de l'arête de coupe", "detail": "Le scanner portatif mesure la rugosité et la hauteur de bavure en micromètres — valeurs reproductibles au lieu d'une inspection visuelle subjective" },
+        { "value": "100%", "label": "Évaluation indépendante de l'opérateur", "detail": "Standards de mesure identiques pour tous les opérateurs — élimine la variance d'évaluation humaine et renforce la fiabilité du processus" },
+        { "value": "Traçable", "label": "Historique d'optimisation documenté", "detail": "Chaque étape d'optimisation — résultat du scan, modification de paramètre et confirmation — est enregistrée pour une traçabilité complète" },
+        { "value": "Conforme", "label": "Documentation qualité aux normes industrielles", "detail": "La qualité mesurable de l'arête de coupe fournit des preuves solides pour les audits internes et les exigences des clients" }
+      ],
+      "cta": "Demander les détails de la méthode de mesure"
     }
   },
   "demo": {
@@ -148,6 +172,11 @@
     "management": {
       "title": "Un aperçu rapide du produit.",
       "subtitle": "Découvrez comment le TRUMPF Cutting Assistant guide votre équipe tout au long de l'optimisation des arêtes de coupe — économisant les coûts matières et améliorant la régularité de la qualité.",
+      "cta": "Demander une démonstration"
+    },
+    "quality": {
+      "title": "Mesure objective en pratique.",
+      "subtitle": "Découvrez comment le scanner portatif fournit des métriques reproductibles sur l'arête de coupe et comment les optimisations sont documentées pour une traçabilité complète.",
       "cta": "Demander une démonstration"
     },
     "play_label": "Lire la vidéo",
@@ -193,6 +222,26 @@
         "role": "Directrice générale",
         "company": "Metall-Technik Süd"
       }
+    ],
+    "quality": [
+      {
+        "quote": "Enfin, nous pouvons étayer la qualité de coupe avec des mesures objectives — pas seulement une inspection visuelle subjective. Le scanner fournit des valeurs reproductibles de rugosité et de hauteur de bavure que nous intégrons directement dans notre documentation qualité.",
+        "name": "Dr. Monika Hauser",
+        "role": "Responsable assurance qualité",
+        "company": "Precision Sheet Metal AG"
+      },
+      {
+        "quote": "La mesure indépendante de l'opérateur a considérablement réduit notre variance d'inspection. Auparavant, différents inspecteurs évaluaient le même bord différemment — maintenant il n'y a qu'un seul chiffre fiable.",
+        "name": "Stefan Reimann",
+        "role": "Ingénieur qualité",
+        "company": "Équipementier automobile Allemagne du Sud"
+      },
+      {
+        "quote": "Pour nos audits, nous avons besoin de preuves qualité traçables. Le Cutting Assistant documente chaque étape d'optimisation — c'est exactement ce qu'exige notre système de management de la qualité.",
+        "name": "Julia Brandt",
+        "role": "Responsable qualité",
+        "company": "Fabrication dispositifs médicaux GmbH"
+      }
     ]
   },
   "integration": {
@@ -228,6 +277,28 @@
       {
         "q": "Que mesure le scanner portatif ?",
         "a": "Le scanner portatif fournit une évaluation objective de l'arête de coupe — affichant la rugosité et la hauteur de bavure en micromètres. Cela remplace l'inspection visuelle subjective par des données qualité mesurables et reproductibles."
+      }
+    ],
+    "quality": [
+      {
+        "q": "Quels paramètres le scanner portatif mesure-t-il ?",
+        "a": "Le scanner portatif mesure la rugosité (valeur Ra) et la hauteur de bavure de l'arête de coupe en micromètres. Les valeurs sont affichées directement dans le Cutting Assistant et peuvent être utilisées pour la documentation qualité."
+      },
+      {
+        "q": "Quelle est la reproductibilité des résultats de mesure ?",
+        "a": "Le scanner portatif fournit des mesures objectives et indépendantes de l'opérateur — contrairement à l'inspection visuelle subjective. Des conditions identiques produisent des résultats de mesure identiques, quel que soit le membre de l'équipe qui effectue le scan."
+      },
+      {
+        "q": "Les étapes d'optimisation et les résultats de mesure sont-ils documentés ?",
+        "a": "Oui. Le Cutting Assistant enregistre chaque étape d'optimisation — y compris le résultat du scan, le problème de découpe sélectionné, le mode d'optimisation et les paramètres appliqués. Cela permet une traçabilité complète de l'historique du processus."
+      },
+      {
+        "q": "Le Cutting Assistant peut-il être intégré dans des systèmes de management de la qualité existants ?",
+        "a": "Combiné avec le logiciel Oseon de TRUMPF, le Cutting Assistant peut être intégré dans un environnement de production connecté. Oseon permet l'analyse et la documentation centralisées des données qualité sur toutes les machines."
+      },
+      {
+        "q": "Le Cutting Assistant est-il adapté aux audits qualité ?",
+        "a": "Les valeurs de mesure objectives et l'historique d'optimisation documenté fournissent des preuves solides pour les audits internes et externes. La qualité mesurable de l'arête de coupe renforce la documentation qualité par rapport aux méthodes d'évaluation purement subjectives."
       }
     ],
     "management": [
@@ -273,6 +344,12 @@
       "subheadline": "Le TRUMPF Cutting Assistant aide votre équipe à optimiser les paramètres de découpe — guidé, objectif et adapté aux matériaux non standard.",
       "btn_primary": "Contacter les ventes TRUMPF",
       "btn_secondary": "Demander une démonstration"
+    },
+    "quality": {
+      "headline": "Mesurez et documentez objectivement la qualité de coupe.",
+      "subheadline": "Le TRUMPF Cutting Assistant fournit des mesures reproductibles de l'arête de coupe et une documentation complète du processus — pour une assurance qualité fiable.",
+      "btn_primary": "Demander les détails de mesure",
+      "btn_secondary": "Demander une démonstration"
     }
   },
   "footer": {
@@ -293,6 +370,7 @@
     "typing": "En train d'écrire...",
     "greeting_operator": "Bonjour ! Je suis l'assistant IA TRUMPF. Je peux vous aider avec la configuration, les matériaux et les paramètres. Comment puis-je vous aider ?",
     "greeting_management": "Bonjour ! Je suis l'assistant IA TRUMPF. Je peux répondre à vos questions sur le ROI, l'implémentation et les licences. Comment puis-je vous aider ?",
+    "greeting_quality": "Bonjour ! Je suis l'assistant IA TRUMPF. Je peux répondre à vos questions sur la technologie de mesure, la documentation qualité, la reproductibilité et les processus d'inspection. Comment puis-je vous aider ?",
     "placeholder": "Posez-moi une question sur le Cutting Assistant...",
     "error": "Je rencontre un problème de connexion. Veuillez réessayer.",
     "suggestions": {
@@ -305,6 +383,11 @@
         "Quel est le délai de retour sur investissement ?",
         "Comment s'intègre-t-il avec notre MES ?",
         "Quel est le modèle de licence ?"
+      ],
+      "quality": [
+        "Quelle est la reproductibilité des mesures du scanner ?",
+        "Quelles valeurs de mesure sont capturées pour la documentation ?",
+        "Peut-il s'intégrer à notre SMQ ?"
       ]
     },
     "dummy_responses": {

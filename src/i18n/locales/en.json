@@ -11,6 +11,7 @@
   "audience": {
     "operator": "Machine Operator",
     "management": "Management / C-Level",
+    "quality": "Quality Assurance",
     "switch_label": "I am a"
   },
   "hero": {
@@ -26,6 +27,12 @@
       "subheadline": "The TRUMPF Cutting Assistant guides your team through cutting edge optimization — saving time and material costs, even with non-standard or fluctuating material grades.",
       "cta_primary": "Request a demo",
       "cta_secondary": "Learn more"
+    },
+    "quality": {
+      "headline": "Measurable quality. Reproducible. Fully documented.",
+      "subheadline": "The TRUMPF Cutting Assistant delivers objective cutting edge metrics in micrometers — reproducible quality assessment, independent of the operator, for reliable process documentation.",
+      "cta_primary": "Explore the measurement method",
+      "cta_secondary": "Learn more"
     }
   },
   "stats": {
@@ -40,6 +47,12 @@
       { "value": 3, "suffix": "", "prefix": "", "label": "Steps from scan to solution" },
       { "value": 9, "suffix": "+", "prefix": "", "label": "Material/gas combinations (Bandwidth)" },
       { "value": 2, "suffix": "", "prefix": "", "label": "Machine series: Highspeed & MD5" }
+    ],
+    "quality": [
+      { "value": 1, "suffix": "µm", "prefix": "<", "label": "Handheld scanner measurement resolution" },
+      { "value": 100, "suffix": "%", "prefix": "", "label": "Objective, operator-independent measurement" },
+      { "value": 3, "suffix": "", "prefix": "", "label": "Documented quality parameters per scan" },
+      { "value": 2, "suffix": "", "prefix": "", "label": "Optimization modes for traceable results" }
     ]
   },
   "features": {
@@ -121,6 +134,17 @@
         { "value": "2D laser", "label": "Purpose-built for TRUMPF 2D machines", "detail": "Available for TruLaser series machines including Highspeed and MD5 — can typically be retrofitted to existing equipment, protecting your machine investment." }
       ],
       "cta": "Request a product demonstration"
+    },
+    "quality": {
+      "title": "Quality assurance backed by solid measurement data.",
+      "subtitle": "Objective cutting edge analysis — reproducible, documentable, and independent of operator judgment.",
+      "kpis": [
+        { "value": "µm-precise", "label": "Objective cutting edge measurement", "detail": "The handheld scanner measures roughness and burr height in micrometers — reproducible values instead of subjective visual inspection" },
+        { "value": "100%", "label": "Operator-independent assessment", "detail": "Identical measurement standards for all operators — eliminates human assessment variance and strengthens process reliability" },
+        { "value": "Traceable", "label": "Documented optimization history", "detail": "Every optimization step — scan result, parameter change, and confirmation — is recorded for full traceability" },
+        { "value": "Compliant", "label": "Industry-standard quality documentation", "detail": "Measurable cutting edge quality provides solid evidence for internal audits and customer requirements" }
+      ],
+      "cta": "Request measurement method details"
     }
   },
   "demo": {
@@ -132,6 +156,11 @@
     "management": {
       "title": "A quick product overview.",
       "subtitle": "See how the TRUMPF Cutting Assistant guides your team through cutting edge optimization — saving material costs and improving quality consistency.",
+      "cta": "Request a demonstration"
+    },
+    "quality": {
+      "title": "Objective measurement in practice.",
+      "subtitle": "See how the handheld scanner delivers reproducible cutting edge metrics and how optimizations are documented for full traceability.",
       "cta": "Request a demonstration"
     },
     "play_label": "Play video",
@@ -177,6 +206,26 @@
         "role": "Managing Director",
         "company": "Metall-Technik Süd"
       }
+    ],
+    "quality": [
+      {
+        "quote": "Finally we can substantiate cut quality with objective measurements — not just subjective visual inspection. The scanner delivers reproducible roughness and burr height values that we feed directly into our quality documentation.",
+        "name": "Dr. Monika Hauser",
+        "role": "Head of Quality Assurance",
+        "company": "Precision Sheet Metal AG"
+      },
+      {
+        "quote": "The operator-independent measurement has significantly reduced our inspection variance. Previously, different inspectors would rate the same edge differently — now there's just one reliable number.",
+        "name": "Stefan Reimann",
+        "role": "Quality Engineer",
+        "company": "Automotive Supplier South Germany"
+      },
+      {
+        "quote": "For our audits, we need traceable quality evidence. The Cutting Assistant documents every optimization step — that's exactly what our quality management system requires.",
+        "name": "Julia Brandt",
+        "role": "Quality Manager",
+        "company": "Medical Device Manufacturing GmbH"
+      }
     ]
   },
   "integration": {
@@ -212,6 +261,28 @@
       {
         "q": "What does the handheld scanner measure?",
         "a": "The handheld scanner provides an objective assessment of the cutting edge — displaying roughness and burr height in micrometers. This replaces subjective visual inspection with reproducible, measurable quality data."
+      }
+    ],
+    "quality": [
+      {
+        "q": "What parameters does the handheld scanner measure?",
+        "a": "The handheld scanner measures roughness (Ra value) and burr height of the cutting edge in micrometers. Values are displayed directly in the Cutting Assistant and can be used for quality documentation."
+      },
+      {
+        "q": "How reproducible are the measurement results?",
+        "a": "The handheld scanner provides objective, operator-independent measurements — unlike subjective visual inspection. Identical conditions produce identical measurement results, regardless of which team member performs the scan."
+      },
+      {
+        "q": "Are optimization steps and measurement results documented?",
+        "a": "Yes. The Cutting Assistant records every optimization step — including scan result, selected cutting issue, optimization mode, and applied parameters. This enables full traceability of the process history."
+      },
+      {
+        "q": "Can the Cutting Assistant be integrated into existing quality management systems?",
+        "a": "Combined with TRUMPF's Oseon software, the Cutting Assistant can be embedded in a connected production environment. Oseon enables centralized analysis and documentation of quality data across all machines."
+      },
+      {
+        "q": "Is the Cutting Assistant suitable for quality audits?",
+        "a": "The objective measurement values and documented optimization history provide solid evidence for internal and external audits. Measurable cutting edge quality strengthens quality documentation compared to purely subjective assessment methods."
       }
     ],
     "management": [
@@ -257,6 +328,12 @@
       "subheadline": "The TRUMPF Cutting Assistant helps your team optimize cutting parameters — guided, objective, and suitable for non-standard materials.",
       "btn_primary": "Contact TRUMPF sales",
       "btn_secondary": "Request a demonstration"
+    },
+    "quality": {
+      "headline": "Measure and document cut quality objectively.",
+      "subheadline": "The TRUMPF Cutting Assistant delivers reproducible cutting edge measurements and full process documentation — for reliable quality assurance.",
+      "btn_primary": "Request measurement details",
+      "btn_secondary": "Request a demonstration"
     }
   },
   "footer": {
@@ -277,6 +354,7 @@
     "typing": "Typing...",
     "greeting_operator": "Hi! I'm the TRUMPF Cutting Assistant AI. I can help with setup, materials, parameters, and troubleshooting. What would you like to know?",
     "greeting_management": "Hi! I'm the TRUMPF Cutting Assistant AI. I can answer your questions about ROI, implementation, licensing, and system integration. How can I help?",
+    "greeting_quality": "Hi! I'm the TRUMPF Cutting Assistant AI. I can answer your questions about measurement technology, quality documentation, reproducibility, and inspection processes. How can I help?",
     "placeholder": "Ask me anything about the Cutting Assistant...",
     "error": "I'm having trouble connecting right now. Please try again.",
     "suggestions": {
@@ -289,6 +367,11 @@
         "What's the typical ROI timeline?",
         "How does it integrate with our MES?",
         "What does the license model look like?"
+      ],
+      "quality": [
+        "How reproducible are the scanner measurements?",
+        "What measurement values are captured for documentation?",
+        "Can this integrate with our QMS?"
       ]
     },
     "dummy_responses": {
