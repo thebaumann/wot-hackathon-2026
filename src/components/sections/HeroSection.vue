@@ -14,7 +14,7 @@
     <div class="relative z-10 section-container w-full py-20 md:py-28">
       <div class="max-w-2xl">
         <!-- Badge -->
-        <p class="inline-block text-xs font-semibold tracking-widest uppercase text-trumpf-red mb-5 border border-trumpf-red/40 px-3 py-1 rounded-full">
+        <p class="inline-block text-xs font-semibold tracking-widest uppercase text-trumpf-blue mb-5 border border-trumpf-blue/40 px-3 py-1 rounded-full">
           {{ $t('hero.badge') }}
         </p>
 

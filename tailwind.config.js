@@ -8,8 +8,10 @@ export default {
     extend: {
       colors: {
         trumpf: {
-          red: '#E2001A',
-          'red-dark': '#B8001A',
+          blue: '#003F87',
+          'blue-dark': '#002D6B',
+          green: '#A3C831',
+          'green-dark': '#8DB227',
           dark: '#1A1A1A',
           gray: '#4A4A4A',
           'gray-light': '#F5F5F5',

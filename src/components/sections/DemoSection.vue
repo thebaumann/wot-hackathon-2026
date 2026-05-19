@@ -12,7 +12,7 @@
             />
             <div class="mt-8 space-y-4">
               <div class="flex items-start gap-3">
-                <div class="w-5 h-5 rounded-full bg-trumpf-red flex-shrink-0 mt-0.5 flex items-center justify-center">
+                <div class="w-5 h-5 rounded-full bg-trumpf-blue flex-shrink-0 mt-0.5 flex items-center justify-center">
                   <svg class="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 12 12">
                     <path d="M3.707 5.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4a1 1 0 00-1.414-1.414L5 6.586 3.707 5.293z" />
                   </svg>
@@ -20,7 +20,7 @@
                 <p class="text-sm text-trumpf-gray">No prior AI experience required — fully integrated into your TRUMPF machine</p>
               </div>
               <div class="flex items-start gap-3">
-                <div class="w-5 h-5 rounded-full bg-trumpf-red flex-shrink-0 mt-0.5 flex items-center justify-center">
+                <div class="w-5 h-5 rounded-full bg-trumpf-blue flex-shrink-0 mt-0.5 flex items-center justify-center">
                   <svg class="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 12 12">
                     <path d="M3.707 5.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4a1 1 0 00-1.414-1.414L5 6.586 3.707 5.293z" />
                   </svg>
@@ -28,7 +28,7 @@
                 <p class="text-sm text-trumpf-gray">30-day free trial period with dedicated TRUMPF application engineer support</p>
               </div>
               <div class="flex items-start gap-3">
-                <div class="w-5 h-5 rounded-full bg-trumpf-red flex-shrink-0 mt-0.5 flex items-center justify-center">
+                <div class="w-5 h-5 rounded-full bg-trumpf-blue flex-shrink-0 mt-0.5 flex items-center justify-center">
                   <svg class="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 12 12">
                     <path d="M3.707 5.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4a1 1 0 00-1.414-1.414L5 6.586 3.707 5.293z" />
                   </svg>
@@ -52,7 +52,7 @@
           />
           <div class="absolute inset-0 bg-trumpf-dark/40 flex flex-col items-center justify-center gap-4 group-hover:bg-trumpf-dark/50 transition-colors duration-200">
             <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-200">
-              <svg class="w-7 h-7 text-trumpf-red translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
+              <svg class="w-7 h-7 text-trumpf-blue translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
             </div>

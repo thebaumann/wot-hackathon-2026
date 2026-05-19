@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --trumpf-red: #E2001A;
-    --trumpf-red-dark: #B8001A;
+    --trumpf-blue: #003F87;
+    --trumpf-blue-dark: #002D6B;
     --trumpf-dark: #1A1A1A;
     --trumpf-gray: #4A4A4A;
   }
@@ -25,7 +25,7 @@
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 bg-trumpf-red text-white font-semibold text-sm tracking-wide uppercase rounded transition-colors duration-200 hover:bg-trumpf-red-dark focus:outline-none focus:ring-2 focus:ring-trumpf-red focus:ring-offset-2;
+    @apply inline-flex items-center justify-center px-6 py-3 bg-trumpf-green text-trumpf-dark font-semibold text-sm tracking-wide uppercase rounded transition-colors duration-200 hover:bg-trumpf-green-dark focus:outline-none focus:ring-2 focus:ring-trumpf-green focus:ring-offset-2;
   }
 
   .btn-secondary {
@@ -33,7 +33,7 @@
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-trumpf-red text-trumpf-red font-semibold text-sm tracking-wide uppercase rounded transition-colors duration-200 hover:bg-trumpf-red hover:text-white focus:outline-none focus:ring-2 focus:ring-trumpf-red focus:ring-offset-2;
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-trumpf-green text-trumpf-green font-semibold text-sm tracking-wide uppercase rounded transition-colors duration-200 hover:bg-trumpf-green hover:text-trumpf-dark focus:outline-none focus:ring-2 focus:ring-trumpf-green focus:ring-offset-2;
   }
 
   .section-container {

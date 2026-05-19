@@ -9,7 +9,7 @@
         :class="[
           'px-3 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 whitespace-nowrap',
           audience === option.value
-            ? 'bg-trumpf-red text-white shadow-sm'
+            ? 'bg-trumpf-blue text-white shadow-sm'
             : 'text-trumpf-gray hover:text-trumpf-dark'
         ]"
         :aria-pressed="audience === option.value"

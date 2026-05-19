@@ -30,7 +30,7 @@
           :key="lang.code"
           @click="select(lang.code)"
           class="w-full flex items-center gap-2.5 px-3 py-2 text-sm text-left hover:bg-trumpf-gray-light transition-colors duration-100"
-          :class="currentLang === lang.code ? 'text-trumpf-red font-semibold' : 'text-trumpf-dark'"
+          :class="currentLang === lang.code ? 'text-trumpf-blue font-semibold' : 'text-trumpf-dark'"
           role="option"
           :aria-selected="currentLang === lang.code"
         >

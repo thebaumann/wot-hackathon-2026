@@ -1,7 +1,7 @@
 <template>
   <div class="card group flex flex-col gap-4">
-    <div class="w-10 h-10 rounded-lg bg-red-50 flex items-center justify-center flex-shrink-0 transition-colors duration-200 group-hover:bg-trumpf-red">
-      <span v-html="iconSvg" class="w-5 h-5 text-trumpf-red transition-colors duration-200 group-hover:text-white flex items-center justify-center [&>svg]:w-5 [&>svg]:h-5 [&>svg]:stroke-current" />
+    <div class="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center flex-shrink-0 transition-colors duration-200 group-hover:bg-trumpf-blue">
+      <span v-html="iconSvg" class="w-5 h-5 text-trumpf-blue transition-colors duration-200 group-hover:text-white flex items-center justify-center [&>svg]:w-5 [&>svg]:h-5 [&>svg]:stroke-current" />
     </div>
     <div>
       <h3 class="font-semibold text-trumpf-dark text-base mb-2">{{ title }}</h3>

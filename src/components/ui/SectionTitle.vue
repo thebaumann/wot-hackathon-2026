@@ -1,6 +1,6 @@
 <template>
   <div :class="centered ? 'text-center' : ''">
-    <p v-if="badge" class="inline-block text-xs font-semibold tracking-widest uppercase text-trumpf-red mb-3">
+    <p v-if="badge" class="inline-block text-xs font-semibold tracking-widest uppercase text-trumpf-blue mb-3">
       {{ badge }}
     </p>
     <h2 class="section-title">{{ title }}</h2>

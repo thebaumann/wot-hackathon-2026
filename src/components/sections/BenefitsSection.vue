@@ -17,7 +17,7 @@
                   :key="step.number"
                   class="flex gap-5 group"
                 >
-                  <div class="flex-shrink-0 w-10 h-10 rounded-full bg-trumpf-red text-white font-bold text-sm flex items-center justify-center">
+                  <div class="flex-shrink-0 w-10 h-10 rounded-full bg-trumpf-blue text-white font-bold text-sm flex items-center justify-center">
                     {{ step.number }}
                   </div>
                   <div>
@@ -65,7 +65,7 @@
               :key="i"
               class="bg-white rounded-xl p-8 border border-trumpf-gray-mid shadow-sm hover:shadow-md transition-shadow duration-200"
             >
-              <div class="text-4xl md:text-5xl font-extrabold text-trumpf-red mb-3 tabular-nums">
+              <div class="text-4xl md:text-5xl font-extrabold text-trumpf-blue mb-3 tabular-nums">
                 {{ kpi.value }}
               </div>
               <div class="font-semibold text-trumpf-dark mb-2">{{ kpi.label }}</div>

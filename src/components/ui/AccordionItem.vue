@@ -5,7 +5,7 @@
       class="w-full flex items-center justify-between py-5 text-left gap-4 group"
       :aria-expanded="isOpen"
     >
-      <span class="font-medium text-trumpf-dark text-sm md:text-base group-hover:text-trumpf-red transition-colors duration-150">
+      <span class="font-medium text-trumpf-dark text-sm md:text-base group-hover:text-trumpf-blue transition-colors duration-150">
         {{ question }}
       </span>
       <svg

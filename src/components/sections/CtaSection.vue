@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-trumpf-red section-padding relative overflow-hidden">
+  <section class="bg-trumpf-blue section-padding relative overflow-hidden">
     <!-- Decorative background pattern -->
     <div class="absolute inset-0 opacity-10">
       <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="mailto:cutting-assistant@trumpf.com"
-              class="inline-flex items-center justify-center px-8 py-4 bg-white text-trumpf-red font-bold text-sm tracking-wide uppercase rounded transition-all duration-200 hover:bg-gray-100 shadow-lg hover:shadow-xl"
+              class="inline-flex items-center justify-center px-8 py-4 bg-trumpf-green text-trumpf-dark font-bold text-sm tracking-wide uppercase rounded transition-all duration-200 hover:bg-trumpf-green-dark shadow-lg hover:shadow-xl"
             >
               {{ $t(`cta.${audience}.btn_primary`) }}
             </a>

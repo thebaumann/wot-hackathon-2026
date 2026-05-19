@@ -7,8 +7,9 @@
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <a href="#" class="flex items-center gap-2 flex-shrink-0" aria-label="TRUMPF Home">
-          <svg viewBox="0 0 120 28" class="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <text x="0" y="22" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="24" fill="#E2001A" letter-spacing="-1">TRUMPF</text>
+          <svg viewBox="0 0 160 28" class="h-7 w-auto" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="2" width="24" height="24" fill="#003F87"/>
+            <text x="32" y="22" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#1A1A1A" letter-spacing="-0.5">TRUMPF</text>
           </svg>
         </a>
 
@@ -18,7 +19,7 @@
             v-for="item in navItems"
             :key="item.key"
             :href="item.href"
-            class="text-sm font-medium text-trumpf-gray hover:text-trumpf-red transition-colors duration-150"
+            class="text-sm font-medium text-trumpf-gray hover:text-trumpf-blue transition-colors duration-150"
           >
             {{ $t(`nav.${item.key}`) }}
           </a>
@@ -67,7 +68,7 @@
               :key="item.key"
               :href="item.href"
               @click="mobileOpen = false"
-              class="block px-3 py-2 rounded text-sm font-medium text-trumpf-gray hover:text-trumpf-red hover:bg-red-50 transition-colors duration-150"
+              class="block px-3 py-2 rounded text-sm font-medium text-trumpf-gray hover:text-trumpf-blue hover:bg-blue-50 transition-colors duration-150"
             >
               {{ $t(`nav.${item.key}`) }}
             </a>

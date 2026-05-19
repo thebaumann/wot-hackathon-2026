@@ -4,8 +4,9 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
         <!-- Brand column -->
         <div>
-          <svg viewBox="0 0 120 28" class="h-7 w-auto mb-4" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <text x="0" y="22" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="24" fill="#E2001A" letter-spacing="-1">TRUMPF</text>
+          <svg viewBox="0 0 160 28" class="h-7 w-auto mb-4" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="2" width="24" height="24" fill="#003F87"/>
+            <text x="32" y="22" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF" letter-spacing="-0.5">TRUMPF</text>
           </svg>
           <p class="text-sm text-gray-400 leading-relaxed mb-4">{{ $t('footer.tagline') }}</p>
           <p class="text-xs text-gray-500">{{ $t('footer.address') }}</p>
