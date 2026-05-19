@@ -344,5 +344,26 @@
     },
     "copyright": "© 2026 TRUMPF SE + Co. KG. Tutti i diritti riservati.",
     "address": "Johann-Maus-Str. 2, 71254 Ditzingen, Germania"
+  },
+  "chatbot": {
+    "title": "Cutting Assistant",
+    "subtitle": "Supporto basato su IA",
+    "typing": "Scrive...",
+    "greeting_operator": "Ciao! Sono il TRUMPF Cutting Assistant. Posso aiutarti con configurazione, materiali, parametri e risoluzione dei problemi. Cosa vorresti sapere?",
+    "greeting_management": "Ciao! Sono il TRUMPF Cutting Assistant. Rispondo alle sue domande su ROI, implementazione, licenze e integrazione di sistema. Come posso aiutare?",
+    "placeholder": "Fai una domanda sul Cutting Assistant...",
+    "error": "Ho un problema di connessione in questo momento. Riprova.",
+    "suggestions": {
+      "operator": [
+        "Come configuro un nuovo profilo materiale?",
+        "Cosa succede se sovrascrivo i parametri IA?",
+        "Funziona con i miei programmi di taglio esistenti?"
+      ],
+      "management": [
+        "Qual è il tipico periodo di ammortamento?",
+        "Come si integra con il nostro MES?",
+        "Come funziona il modello di licenza?"
+      ]
+    }
   }
 }

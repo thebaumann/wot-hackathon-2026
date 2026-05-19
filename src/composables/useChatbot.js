@@ -1,10 +1,35 @@
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import i18next from '../i18n/index.js'
 
 const isOpen = ref(false)
 const isLoading = ref(false)
 const hasGreeted = ref(false)
 const messages = ref([])
+let _lastAudience = 'operator'
+
+function resetChat() {
+  messages.value = []
+  hasGreeted.value = false
+  if (isOpen.value) {
+    messages.value.push({
+      id: crypto.randomUUID(),
+      role: 'assistant',
+      content: greetingFor(_lastAudience),
+      isStreaming: false
+    })
+    hasGreeted.value = true
+  }
+}
+
+i18next.on('languageChanged', () => {
+  if (isLoading.value) {
+    const stop = watch(isLoading, (loading) => {
+      if (!loading) { resetChat(); stop() }
+    })
+  } else {
+    resetChat()
+  }
+})
 
 function buildSystemPrompt(audience) {
   const audienceContext = audience === 'management'
@@ -48,6 +73,7 @@ function getLast20ApiMessages(msgs) {
 
 export function useChatbot() {
   function openChat(audience) {
+    _lastAudience = audience
     isOpen.value = true
     if (!hasGreeted.value) {
       hasGreeted.value = true
@@ -62,6 +88,7 @@ export function useChatbot() {
 
   async function sendMessage(text, audience) {
     if (!text.trim() || isLoading.value) return
+    _lastAudience = audience
 
     messages.value.push({
       id: crypto.randomUUID(),
