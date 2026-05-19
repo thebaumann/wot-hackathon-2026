@@ -10,145 +10,273 @@
   },
   "audience": {
     "operator": "機械オペレーター",
-    "management": "経営管理職",
+    "management": "経営管理職 / 経営幹部",
     "switch_label": "私は"
   },
   "hero": {
-    "badge": "AIレーザー切断ソリューション",
+    "badge": "AIアシスト切断端面最適化",
     "operator": {
-      "headline": "より賢く切断 — より努力せず。",
-      "subheadline": "TRUMPF カッティングアシスタントがレーザー切断パラメーターを自動最適化します。エラー削減、設定時間短縮、品質向上。最初の部品から。",
-      "cta_primary": "実際に見る",
+      "headline": "切断端面を最適化 — ステップごとに。",
+      "subheadline": "TRUMPF Cutting Assistantは、2Dレーザー切断機の切断パラメーターを迅速かつ簡単に最適化するお手伝いをします — 経験がなくても、わずか数分で。",
+      "cta_primary": "製品動画を見る",
       "cta_secondary": "詳細を見る"
     },
     "management": {
-      "headline": "すべてのレーザー切断でROIを最大化。",
-      "subheadline": "運用コストを最大18%削減し、6ヶ月以内に完全な投資回収を実現。TRUMPF カッティングアシスタントがレーザー切断を競争優位に変えます。",
-      "cta_primary": "ROIを計算する",
-      "cta_secondary": "経営者向け概要"
+      "headline": "より高い切断品質。廃材削減。より迅速に。",
+      "subheadline": "TRUMPF Cutting Assistantは、切断端面最適化を通じてチームを導きます — 非標準素材や品質グレードが変動する材料でも、時間と材料コストを節約します。",
+      "cta_primary": "デモを申し込む",
+      "cta_secondary": "詳細を見る"
     }
   },
   "stats": {
     "operator": [
-      { "value": 45, "suffix": "%", "prefix": "-", "label": "設定時間短縮" },
-      { "value": 60, "suffix": "%", "prefix": "-", "label": "パラメーターエラー削減" },
-      { "value": 30, "suffix": "%", "prefix": "+", "label": "初回切断成功率向上" },
-      { "value": 2, "suffix": "倍", "prefix": "", "label": "ジョブ切替速度向上" }
+      { "value": 2, "suffix": "", "prefix": "", "label": "最適化モード（AI & Bandwidth mode）" },
+      { "value": 3, "suffix": "", "prefix": "", "label": "ガイド付きワークフローステップ" },
+      { "value": 9, "suffix": "+", "prefix": "", "label": "材料・ガスの組み合わせ（Bandwidth mode）" },
+      { "value": 2, "suffix": "", "prefix": "", "label": "AI modeに対応するマシンシリーズ" }
     ],
     "management": [
-      { "value": 18, "suffix": "%", "prefix": "-", "label": "運用コスト削減" },
-      { "value": 6, "suffix": " ヶ月", "prefix": "", "label": "完全ROI達成" },
-      { "value": 35, "suffix": "%", "prefix": "+", "label": "スループット向上" },
-      { "value": 99.2, "suffix": "%", "prefix": "", "label": "機械稼働率" }
+      { "value": 2, "suffix": "", "prefix": "", "label": "柔軟な最適化モード" },
+      { "value": 3, "suffix": "", "prefix": "", "label": "スキャンから解決策までのステップ" },
+      { "value": 9, "suffix": "+", "prefix": "", "label": "材料・ガスの組み合わせ（Bandwidth mode）" },
+      { "value": 2, "suffix": "", "prefix": "", "label": "マシンシリーズ：Highspeed & MD5" }
     ]
   },
   "features": {
-    "title": "カッティングアシスタントの機能",
-    "subtitle": "6つの強力なAI機能 — TRUMPFマシンにシームレスに統合。",
+    "title": "Cutting Assistantの機能",
+    "subtitle": "AIアシスト切断端面最適化 — TRUMPFの2Dレーザー切断機専用に設計。",
     "items": [
-      { "id": "param_opt", "title": "自動パラメーター最適化", "desc": "材料の種類、厚さ、切断形状を分析し、最適なレーザー出力、速度、ガス圧を自動選択。設定時間を30分から2分以下に短縮。", "icon": "settings" },
-      { "id": "adaptive", "title": "アダプティブ切断", "desc": "リアルタイムセンサーフィードバックにより、材料の変動、熱的影響、ワークピース変形を補正するために切断パラメーターを継続的に調整。", "icon": "adaptive" },
-      { "id": "collision", "title": "衝突回避", "desc": "AIパス計画により切り取られた部品へのノズル衝突を防止し、計画外の機械停止や部品損傷を大幅に削減。", "icon": "shield" },
-      { "id": "material", "title": "材料検出", "desc": "カメラとセンサーの融合により、切断前に材料の種類と表面状態を特定し、正しいパラメーターセットを自動確認。", "icon": "scan" },
-      { "id": "oseon", "title": "Oseon統合", "desc": "ジョブスケジューリング、完全なトレーサビリティ、生産レポートのためのTRUMPF OseonとのシームレスなMESデータ交換。", "icon": "connect" },
-      { "id": "setup", "title": "ワンクリックジョブ設定", "desc": "新しい切断ジョブをインポートするだけで、アシスタントがパラメーター選択、ネスティング最適化、事前実行チェックを処理。数秒で準備完了。", "icon": "click" }
+      {
+        "id": "dialog",
+        "title": "ダイアログ形式のガイド付き最適化",
+        "desc": "経験のないユーザーでも、わずか数分でプロのように切断データを最適化できます。ステップバイステップのダイアログがプロセス全体を通じてガイドし、時間と材料コストを節約します。",
+        "icon": "settings"
+      },
+      {
+        "id": "scanner",
+        "title": "ハンドスキャナーによる評価",
+        "desc": "ハンドスキャナーで切断端面を客観的にスキャンします。Cutting Assistantは、正確で再現性の高い品質評価のために、粗さとバリ高さをマイクロメーター単位で表示します。",
+        "icon": "scan"
+      },
+      {
+        "id": "ai_mode",
+        "title": "AI mode（2026年3月より）",
+        "desc": "お客様の具体的な切断課題と材料に基づいたAI生成のパラメーター推奨。現在、HighspeedおよびMD5マシン向けに、Mild Steel（N₂、O₂）およびStainless Steel（N₂）に対応しています。",
+        "icon": "adaptive"
+      },
+      {
+        "id": "bandwidth",
+        "title": "Bandwidth mode",
+        "desc": "パラメーター範囲全体にわたるテスト部品のシリーズを切断します。すべての材料に対応しており、切断端面をスキャンできない切断課題にも適しています。現在、全プロセス範囲でご利用いただけます。",
+        "icon": "click"
+      },
+      {
+        "id": "material",
+        "title": "非標準材料のサポート",
+        "desc": "レーザーグレード以外の材料でも優れた切断品質を実現します。Cutting Assistantは、特殊材料や品質グレードが変動する材料に対して、適切な最適化を提案します。",
+        "icon": "shield"
+      },
+      {
+        "id": "ltt",
+        "title": "レーザー技術テーブル（LTT）",
+        "desc": "TRUMPFのレーザー技術テーブルに基づく実績ある切断パラメーターを基盤としています。最適化の出発点として、バリ、粗さ、ビーム断絶など、具体的な切断課題を選択できます。",
+        "icon": "connect"
+      }
     ]
   },
   "benefits": {
     "operator": {
       "title": "現場のために設計。",
-      "subtitle": "推測を減らす。スループットを上げる。シフトごとに一貫した品質。",
+      "subtitle": "3つのガイド付きステップ — 切断端面のスキャンから最適化パラメーターの適用まで。",
       "steps": [
-        { "number": "01", "title": "ジョブを読み込む", "desc": "切断ファイルをインポート。カッティングアシスタントが形状と材料データを自動的に読み取ります。" },
-        { "number": "02", "title": "AIが最適なパラメーターを選択", "desc": "数秒以内に、アシスタントが数千の切断プロファイルに基づいて最適なレーザー出力、速度、ガス設定を提案します。" },
-        { "number": "03", "title": "自信を持って切断", "desc": "センサーがリアルタイムですべての切断を監視。条件が変化すると、パラメーターが自動的に調整されます。" },
-        { "number": "04", "title": "レビューと繰り返し", "desc": "すべてのジョブが記録されます。成功したパラメーターは次の実行のために記憶されます。" }
+        {
+          "number": "01",
+          "title": "切断端面をスキャンする",
+          "desc": "ハンドスキャナーを使用して切断端面の客観的な計測値を取得します。Cutting Assistantが粗さとバリ高さをマイクロメーター単位で表示します。"
+        },
+        {
+          "number": "02",
+          "title": "切断課題を選択する",
+          "desc": "レーザー技術テーブルから具体的な切断課題を選択します — バリ、粗さ、ビーム断絶など。システムが適切な開始パラメーターを特定します。"
+        },
+        {
+          "number": "03",
+          "title": "最適化モードを選択する",
+          "desc": "直接パラメーター推奨にはAI modeを使用します（Mild Steel、Stainless Steel — 2026年3月より）。または、Bandwidth modeでパラメーター範囲全体にわたるテストシリーズを切断します。"
+        },
+        {
+          "number": "04",
+          "title": "適用して確認する",
+          "desc": "最適化されたパラメーターを実装し、スキャナーで結果を確認します。最適化が成功するたびに、プロセスの知識が蓄積されます。"
+        }
       ]
     },
     "management": {
-      "title": "ビジネスケースは明確です。",
-      "subtitle": "具体的な数値。迅速な回収。持続可能な競争優位。",
+      "title": "生産への具体的なメリット。",
+      "subtitle": "信頼性の高い品質、廃材率の低下、迅速なセットアップ — 専門知識は不要。",
       "kpis": [
-        { "value": "-18%", "label": "部品あたり運用コスト", "detail": "廃棄物削減、手直し削減、ガス消費最適化による" },
-        { "value": "6ヶ月", "label": "平均ROI期間", "detail": "TRUMPFの顧客データに基づく" },
-        { "value": "+35%", "label": "生産スループット", "detail": "設定ボトルネックの解消と計画外停止の削減による" },
-        { "value": "-40%", "label": "スクラップ率削減", "detail": "一貫したパラメーター品質がレーザー切断廃棄物の主要原因を解消" }
+        {
+          "value": "2 modes",
+          "label": "柔軟な最適化方法",
+          "detail": "AI modeは直接推奨、Bandwidth modeは完全な材料・プロセス範囲に対応"
+        },
+        {
+          "value": "3 steps",
+          "label": "スキャンから解決策まで",
+          "detail": "切断端面をスキャンし、課題を選択し、最適化を適用 — ガイド付きダイアログ、専門知識不要"
+        },
+        {
+          "value": "9+ combos",
+          "label": "材料・ガスの対応範囲（Bandwidth mode）",
+          "detail": "Mild Steel（N₂、Mixed Gas、O₂、Air）、Stainless Steel（N₂）、Aluminum（N₂、Gasmix、O₂、Air）"
+        },
+        {
+          "value": "2D laser",
+          "label": "TRUMPF 2Dマシン専用設計",
+          "detail": "HighspeedおよびMD5シリーズに最適化 — 既存のTRUMPFマシンにシームレスに統合"
+        }
       ],
-      "cta": "ROIホワイトペーパーをダウンロード"
+      "cta": "製品デモンストレーションを申し込む"
     }
   },
   "demo": {
     "operator": {
       "title": "90秒でライブで確認。",
-      "subtitle": "機械オペレーターが新しいジョブを読み込み、AIパラメーター推奨を確認し、切断を開始する方法を90秒以内で見てください。",
-      "cta": "ライブデモを申し込む"
+      "subtitle": "オペレーターが切断端面をスキャンし、切断課題を選択し、AI modeまたはBandwidth modeを使用して最適化されたパラメーターを受け取る方法をご覧ください。",
+      "cta": "製品動画を見る"
     },
     "management": {
-      "title": "3分間のエグゼクティブブリーフィング。",
-      "subtitle": "精密製造のTRUMPF顧客がカッティングアシスタントで部品コストを削減し、生産サイクルを加速した方法をご覧ください。",
-      "cta": "ブリーフィングをスケジュール"
+      "title": "製品概要のご紹介。",
+      "subtitle": "TRUMPF Cutting Assistantがチームの切断端面最適化をどのように導くかをご覧ください — 材料コストを節約し、品質の一貫性を向上させます。",
+      "cta": "デモンストレーションを申し込む"
     },
     "play_label": "動画を再生",
-    "video_caption": "カッティングアシスタント — ライブデモ"
+    "video_caption": "Cutting Assistant — 製品動画"
   },
   "testimonials": {
     "operator": [
-      { "quote": "カッティングアシスタントを導入する前は、新しい材料ごとに30分の試行錯誤が必要でした。今はジョブを読み込んでパラメーターを確認するだけで切断できます。本当に簡単です。", "name": "Markus Weber", "role": "CNCレーザーオペレーター", "company": "Metallbau Schulz GmbH" },
-      { "quote": "衝突回避機能だけでも、今月少なくとも3回のノズルクラッシュを防ぎました。以前はそのような修理に半日かかっていました。", "name": "Sandra Hofmann", "role": "生産技術者", "company": "Blechwerk Rhein-Main" },
-      { "quote": "AIが切断の判断を下すことに懐疑的でした。しかし1ヶ月後には、難しい材料での自分自身の経験よりもAIを信頼するようになりました。", "name": "Thomas Kunze", "role": "シニア機械オペレーター", "company": "Precision Parts Bavaria" }
+      {
+        "quote": "Cutting Assistantを導入する前は、新しい材料バッチのパラメーター調整に多くの試行錯誤が必要でした。今はスキャナーが何が問題かを正確に教えてくれ、ガイド付きステップに従うだけです。数分で完了します。",
+        "name": "田中 誠",
+        "role": "CNCレーザーオペレーター",
+        "company": "精密金属加工（株）"
+      },
+      {
+        "quote": "ハンドスキャナーは切断品質の評価方法を変えました。目視検査による推測の代わりに、マイクロメーター単位での実際の粗さとバリ高さを取得できます。本当に違います。",
+        "name": "鈴木 花子",
+        "role": "生産技術員",
+        "company": "東海板金加工（株）"
+      },
+      {
+        "quote": "パラメーター最適化にAIを使うことには懐疑的でした。しかし、ダイアログがとても明確に案内してくれるため、新しいチームメンバーでも確実な結果が得られます — 特に難しい材料でも。",
+        "name": "山田 健一",
+        "role": "シニアマシンオペレーター",
+        "company": "中部精密部品（株）"
+      }
     ],
     "management": [
-      { "quote": "導入後の最初の四半期で部品あたりのコストを16%削減しました。ROIはチームのすべての予測より速く、5ヶ月で完全に償却されました。", "name": "Dr. Ingrid Bauer", "role": "VP オペレーション", "company": "自動車サプライヤー Tier 1" },
-      { "quote": "Oseon統合により、MESは初日からライブ生産データを持っていました。手動データ入力なし、完全なトレーサビリティ。これだけで投資が正当化されました。", "name": "Peter Lindemann", "role": "COO", "company": "EKPO Fuel Cell Technologies" },
-      { "quote": "競争上の地位が大幅に改善されました。より速く見積もり、より速く納品でき、小規模な競合他社が単純に達成できない品質の一貫性を維持できます。", "name": "Maria González", "role": "代表取締役", "company": "Metall-Technik Süd" }
+      {
+        "quote": "Cutting Assistantにより、非標準材料バッチを処理する際の廃材率が大幅に低下しました。ダイアログ形式のプロセスは、マシンに専門家がいなくても機能します。",
+        "name": "佐藤 部長",
+        "role": "VP Operations",
+        "company": "自動車部品サプライヤー Tier 1"
+      },
+      {
+        "quote": "説得力があったのは客観性です。スキャナーは測定可能な数値を提供します — オペレーターの勘ではありません。それが、品質ドキュメントに求められているものです。",
+        "name": "伊藤 COO",
+        "role": "最高執行責任者",
+        "company": "燃料電池技術（株）"
+      },
+      {
+        "quote": "特に異なるサプライヤーからの材料品質が変動する場合、Cutting Assistantは信頼性の高いツールです。問題を指摘するだけでなく、パラメーターを適応させます。",
+        "name": "渡辺 社長",
+        "role": "代表取締役",
+        "company": "西日本精密金属技術（株）"
+      }
     ]
   },
   "integration": {
-    "title": "TRUMPFエコシステムにシームレスに統合。",
-    "subtitle": "カッティングアシスタントはTRUMPFソフトウェアスイートと既存の生産環境にネイティブに接続します。",
+    "title": "TRUMPFの2Dレーザー切断機向けに設計。",
+    "subtitle": "Cutting AssistantはTRUMPFの実績あるレーザー技術テーブルと連携し、最も一般的な材料と切断ガスに対応しています。",
     "items": [
-      { "name": "Oseon", "desc": "製造実行システム" },
-      { "name": "TruTops Boost", "desc": "CAMプログラミング" },
-      { "name": "TruTops Monitor", "desc": "機械監視" },
-      { "name": "ERP / MES", "desc": "サードパーティシステム" },
-      { "name": "OPC UA", "desc": "産業用IoT" }
+      { "name": "Highspeed", "desc": "マシンシリーズ" },
+      { "name": "MD5", "desc": "マシンシリーズ" },
+      { "name": "AI mode", "desc": "2026年3月より" },
+      { "name": "Bandwidth mode", "desc": "現在利用可能" },
+      { "name": "LTT", "desc": "レーザー技術テーブル" }
     ]
   },
   "faq": {
     "operator": [
-      { "q": "材料をシステムに学習させるにはどのくらい時間がかかりますか？", "a": "カッティングアシスタントはTRUMPFのグローバルパラメーターデータベースを使用して最初のジョブから機能します。その後、特定の材料バッチから学習します。" },
-      { "q": "すべての材料と厚みに対応できますか？", "a": "はい — システムはTRUMPFマシンの全厚み範囲にわたって標準的な板金材料をすべてサポートします。" },
-      { "q": "AIが間違ったパラメーターを推奨した場合はどうなりますか？", "a": "切断が開始される前に常に最終承認があります。システムは信頼度を表示し、任意のパラメーターを上書きできます。" },
-      { "q": "既存の切断プログラムで動作しますか？", "a": "はい。カッティングアシスタントはTruTops Boostで作成されたプログラムとすべての標準DXF/DWG形式で動作します。" },
-      { "q": "ネットワーク障害時はどうなりますか？", "a": "すべてのコア機能は機械コントローラーでローカルに実行されます。" }
+      {
+        "q": "Cutting Assistantはどのマシンに対応していますか？",
+        "a": "Cutting AssistantはTRUMPFの2Dレーザー切断機向けに設計されています。AI modeはHighspeedおよびMD5シリーズに対応しています。Bandwidth modeは全プロセス範囲でご利用いただけます。"
+      },
+      {
+        "q": "AI modeとBandwidth modeの違いは何ですか？",
+        "a": "AI modeはAIモデルを使用して、バリおよび粗さの計測値に基づいてパラメーター調整を推奨します — 2026年3月より、HighspeedおよびMD5マシンでMild Steel（N₂、O₂）およびStainless Steel（N₂）に対応予定です。Bandwidth modeはパラメーター範囲全体でテスト部品のシリーズを切断し、Aluminumを含む全材料に現在対応しています。"
+      },
+      {
+        "q": "AI modeはどの材料に対応していますか？",
+        "a": "AI modeは現在、HighspeedおよびMD5マシンで、Mild Steel（Nitrogen使用）、Mild Steel（Oxygen使用）、およびStainless Steel（Nitrogen使用）に対応しています。Aluminum、銅、真鍮、その他の材料はBandwidth modeで対応します。"
+      },
+      {
+        "q": "Cutting Assistantを使用するには経験が必要ですか？",
+        "a": "いいえ。ダイアログ形式のプロセスは、経験のないユーザーでもわずか数分でプロのように切断データを最適化できるように設計されています。スキャン、課題の選択、パラメーター最適化の各ステップをシステムが順を追ってガイドします。"
+      },
+      {
+        "q": "ハンドスキャナーは何を計測しますか？",
+        "a": "ハンドスキャナーは切断端面の客観的な評価を提供します — 粗さとバリ高さをマイクロメーター単位で表示します。これにより、主観的な目視検査を、再現性のある測定可能な品質データに置き換えます。"
+      }
     ],
     "management": [
-      { "q": "典型的な実装期間はどのくらいですか？", "a": "標準的なデプロイメントは機械統合、オペレータートレーニング、システム検証を含めて2〜4週間かかります。" },
-      { "q": "ライセンスモデルはどのようになっていますか？", "a": "カッティングアシスタントはマシンごとの年間サブスクリプション、またはオプションのサポート契約付き一回限りのライセンスとして利用可能です。" },
-      { "q": "既存のMESまたはERPとどのように統合しますか？", "a": "カッティングアシスタントはTRUMPF Oseonとネイティブに統合します。サードパーティシステムについては、OPC UA、REST API、または標準ファイルベースのインターフェースでデータ交換を行います。" },
-      { "q": "どのレベルのITインフラが必要ですか？", "a": "ソフトウェアはTRUMPFマシンコントローラーで実行されます — コア機能に別途サーバーハードウェアは必要ありません。" },
-      { "q": "サポートパッケージには何が含まれていますか？", "a": "標準サポートにはソフトウェアアップデート、パラメーターデータベースアップデート、リモート診断が含まれます。" }
+      {
+        "q": "AI modeはいつ利用できますか？",
+        "a": "AI modeは2026年3月より、HighspeedおよびMD5マシンでMild Steel（N₂、O₂）およびStainless Steel（N₂）に対応予定です。Bandwidth modeは現在ご利用いただけます。Aluminumを含む全プロセス範囲に対応しています。"
+      },
+      {
+        "q": "どのようなハードウェアが必要ですか？",
+        "a": "Cutting AssistantはTRUMPFマシン上で動作します。また、最適化ワークフローの一環として切断端面をスキャンするためのハンドスキャナーが必要です。"
+      },
+      {
+        "q": "Bandwidth modeではどの材料とガスに対応していますか？",
+        "a": "Bandwidth modeは全プロセス範囲に対応しています：Mild Steel（Nitrogen、Mixed Gas、Oxygen、Air）、Stainless Steel（Nitrogen）、およびAluminum（Nitrogen、Gasmix、Oxygen、Air）。切断端面をスキャンできない切断課題にも適しています。"
+      },
+      {
+        "q": "レーザーの専門知識がないオペレーターでもこのシステムを使用できますか？",
+        "a": "はい。ダイアログ形式のプロセスは、レーザーの深い専門知識を持たないユーザー向けに特別に設計されています。スキャンから課題の選択、パラメーター調整まで、各ステップをシステムがガイドします。"
+      },
+      {
+        "q": "Cutting Assistantの実際の動作はどこで確認できますか？",
+        "a": "製品動画はhttps://www.trumpf.info/fsbpmjでご覧いただけます。また、TRUMPFのショールームでライブデモンストレーションをご依頼いただくこともできます。詳細はTRUMPF Machine Tools Germany Sales + Service GmbH + Co. KGにお問い合わせください。"
+      }
     ]
   },
   "cta": {
     "operator": {
-      "headline": "よりスマートに切断する準備はできていますか？",
-      "subheadline": "TRUMPFマシンでカッティングアシスタントをライブで体験してください。コミットメント不要 — 結果だけ。",
-      "btn_primary": "無料デモを申し込む",
-      "btn_secondary": "仕様書をダウンロード"
+      "headline": "切断端面を最適化する準備はできていますか？",
+      "subheadline": "製品動画をご覧になるか、TRUMPFの2Dレーザー切断機でCutting Assistantのライブデモンストレーションをご依頼ください。",
+      "btn_primary": "製品動画を見る",
+      "btn_secondary": "デモンストレーションを申し込む"
     },
     "management": {
-      "headline": "施設のROIを確認してください。",
-      "subheadline": "アプリケーションエンジニアが生産環境に合わせた具体的なコスト削減と回収期間を計算します — 無料で。",
-      "btn_primary": "営業に連絡する",
-      "btn_secondary": "ROIホワイトペーパーをダウンロード"
+      "headline": "切断品質の向上と廃材の削減。",
+      "subheadline": "TRUMPF Cutting Assistantは、非標準材料にも対応しながら、ガイド付きで客観的に切断パラメーターを最適化するチームをサポートします。",
+      "btn_primary": "TRUMPFの営業に連絡する",
+      "btn_secondary": "デモンストレーションを申し込む"
     }
   },
   "footer": {
-    "tagline": "板金加工の未来を牽引。",
-    "links": { "company": "TRUMPF SE + Co. KG", "privacy": "プライバシーポリシー", "imprint": "法的通知", "contact": "お問い合わせ", "careers": "採用情報" },
+    "tagline": "2Dレーザー切断機向けAIアシスト切断端面最適化。",
+    "links": {
+      "company": "TRUMPF SE + Co. KG",
+      "privacy": "プライバシーポリシー",
+      "imprint": "インプリント",
+      "contact": "お問い合わせ",
+      "careers": "採用情報"
+    },
     "copyright": "© 2026 TRUMPF SE + Co. KG. 無断複写・転載を禁じます。",
-    "address": "Johann-Maus-Str. 2, 71254 Ditzingen, ドイツ"
+    "address": "Johann-Maus-Str. 2, 71254 Ditzingen, Germany"
   },
   "chatbot": {
     "title": "カッティングアシスタント",

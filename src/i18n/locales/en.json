@@ -14,145 +14,145 @@
     "switch_label": "I am a"
   },
   "hero": {
-    "badge": "AI-Powered Laser Cutting",
+    "badge": "AI-Assisted Cutting Edge Optimization",
     "operator": {
-      "headline": "Cut smarter — not harder.",
-      "subheadline": "The TRUMPF Cutting Assistant automatically optimizes your laser cutting parameters — fewer errors, faster setup, better results. From the first part.",
-      "cta_primary": "See it in action",
+      "headline": "Optimize cutting edges — step by step.",
+      "subheadline": "The TRUMPF Cutting Assistant helps you quickly and easily optimize cutting parameters for your 2D laser cutting machine — even without prior experience, in just a few minutes.",
+      "cta_primary": "Watch product video",
       "cta_secondary": "Learn more"
     },
     "management": {
-      "headline": "Maximize ROI on every laser cut.",
-      "subheadline": "Reduce operating costs by up to 18% and achieve full return on investment within 6 months. The TRUMPF Cutting Assistant turns laser cutting into a competitive advantage.",
-      "cta_primary": "Calculate your ROI",
-      "cta_secondary": "Executive overview"
+      "headline": "Better cut quality. Less scrap. Faster.",
+      "subheadline": "The TRUMPF Cutting Assistant guides your team through cutting edge optimization — saving time and material costs, even with non-standard or fluctuating material grades.",
+      "cta_primary": "Request a demo",
+      "cta_secondary": "Learn more"
     }
   },
   "stats": {
     "operator": [
-      { "value": 45, "suffix": "%", "prefix": "-", "label": "Reduction in setup time" },
-      { "value": 60, "suffix": "%", "prefix": "-", "label": "Fewer parameter errors" },
-      { "value": 30, "suffix": "%", "prefix": "+", "label": "First-cut success rate" },
-      { "value": 2, "suffix": "×", "prefix": "", "label": "Faster job changeovers" }
+      { "value": 2, "suffix": "", "prefix": "", "label": "Optimization modes (AI & Bandwidth)" },
+      { "value": 3, "suffix": "", "prefix": "", "label": "Guided workflow steps" },
+      { "value": 9, "suffix": "+", "prefix": "", "label": "Material/gas combinations (Bandwidth)" },
+      { "value": 2, "suffix": "", "prefix": "", "label": "Machine series supported for AI mode" }
     ],
     "management": [
-      { "value": 18, "suffix": "%", "prefix": "-", "label": "Lower operating cost" },
-      { "value": 6, "suffix": " mo", "prefix": "", "label": "Full ROI achieved" },
-      { "value": 35, "suffix": "%", "prefix": "+", "label": "Throughput increase" },
-      { "value": 99.2, "suffix": "%", "prefix": "", "label": "Machine uptime" }
+      { "value": 2, "suffix": "", "prefix": "", "label": "Flexible optimization modes" },
+      { "value": 3, "suffix": "", "prefix": "", "label": "Steps from scan to solution" },
+      { "value": 9, "suffix": "+", "prefix": "", "label": "Material/gas combinations (Bandwidth)" },
+      { "value": 2, "suffix": "", "prefix": "", "label": "Machine series: Highspeed & MD5" }
     ]
   },
   "features": {
     "title": "What the Cutting Assistant does",
-    "subtitle": "Six powerful AI capabilities — seamlessly integrated into your TRUMPF machine.",
+    "subtitle": "AI-assisted cutting edge optimization — purpose-built for your 2D TRUMPF laser cutting machine.",
     "items": [
       {
-        "id": "param_opt",
-        "title": "Auto Parameter Optimization",
-        "desc": "Analyzes material type, thickness, and cutting geometry to automatically select optimal laser power, speed, and gas pressure. Setup time reduced from 30 minutes to under 2 minutes.",
+        "id": "dialog",
+        "title": "Dialog-Guided Optimization",
+        "desc": "Even inexperienced users can optimize cutting data like a pro in just a few minutes. The step-by-step dialog guides you through the entire process — saving time and material costs.",
         "icon": "settings"
       },
       {
-        "id": "adaptive",
-        "title": "Adaptive Cutting",
-        "desc": "Real-time sensor feedback continuously adjusts cutting parameters mid-job to compensate for material variations, thermal effects, and workpiece deformation.",
-        "icon": "adaptive"
-      },
-      {
-        "id": "collision",
-        "title": "Collision Avoidance",
-        "desc": "AI-powered path planning prevents costly nozzle collisions with cut-out parts, dramatically reducing unplanned machine stops and part damage.",
-        "icon": "shield"
-      },
-      {
-        "id": "material",
-        "title": "Material Detection",
-        "desc": "Camera and sensor fusion identifies material type and surface condition before cutting, automatically confirming the correct parameter set.",
+        "id": "scanner",
+        "title": "Handheld Scanner Assessment",
+        "desc": "Scan the cutting edge objectively with the handheld scanner. The Cutting Assistant displays roughness and burr height in micrometers for an accurate, reproducible quality assessment.",
         "icon": "scan"
       },
       {
-        "id": "oseon",
-        "title": "Oseon Integration",
-        "desc": "Seamless data exchange with TRUMPF's Oseon manufacturing execution software for job scheduling, full traceability, and production reporting.",
-        "icon": "connect"
+        "id": "ai_mode",
+        "title": "AI Mode (from March 2026)",
+        "desc": "AI-generated parameter recommendations based on your specific cutting issue and material. Currently available for Mild Steel (N₂, O₂) and Stainless Steel (N₂) on Highspeed and MD5 machines.",
+        "icon": "adaptive"
       },
       {
-        "id": "setup",
-        "title": "One-Click Job Setup",
-        "desc": "Import a new cutting job and the assistant handles the rest — parameter selection, nesting optimization, and pre-run checks. Ready in seconds.",
+        "id": "bandwidth",
+        "title": "Bandwidth Mode",
+        "desc": "Cut a series of test parts across the full parameter range. Suitable for all materials and for cutting issues where the cutting edge cannot be scanned. Available now across the complete process range.",
         "icon": "click"
+      },
+      {
+        "id": "material",
+        "title": "Non-Standard Material Support",
+        "desc": "Excellent cutting quality even in non-laser-grade material. The Cutting Assistant suggests suitable optimizations for special materials or materials with fluctuating quality grades.",
+        "icon": "shield"
+      },
+      {
+        "id": "ltt",
+        "title": "Laser Technology Table (LTT)",
+        "desc": "Built on TRUMPF's proven cutting parameters from the Laser Technology Table. Select your specific cutting issue — burrs, roughness, or beam interruption — as the starting point for optimization.",
+        "icon": "connect"
       }
     ]
   },
   "benefits": {
     "operator": {
       "title": "Built for the shop floor.",
-      "subtitle": "Less guesswork. More throughput. Consistent quality — shift after shift.",
+      "subtitle": "Three guided steps — from scanning the cut edge to applying optimized parameters.",
       "steps": [
         {
           "number": "01",
-          "title": "Load your job",
-          "desc": "Import your cutting file. The Cutting Assistant reads the geometry and material data automatically."
+          "title": "Scan the cutting edge",
+          "desc": "Use the handheld scanner to capture an objective measurement of the cutting edge. The Cutting Assistant displays roughness and burr height in micrometers."
         },
         {
           "number": "02",
-          "title": "AI selects optimal parameters",
-          "desc": "Within seconds, the assistant proposes the best laser power, speed, and gas settings — based on thousands of cutting profiles."
+          "title": "Select your cutting issue",
+          "desc": "Choose your specific cutting issue from the Laser Technology Table — burrs, roughness, beam interruption, and more. The system identifies the right starting parameters."
         },
         {
           "number": "03",
-          "title": "Cut with confidence",
-          "desc": "Sensors monitor every cut in real time. If conditions change, parameters adjust automatically. No manual intervention required."
+          "title": "Choose your optimization mode",
+          "desc": "Use AI mode for direct parameter recommendations (Mild Steel, Stainless Steel — from March 2026), or Bandwidth mode to cut a test series across the full parameter range."
         },
         {
           "number": "04",
-          "title": "Review and repeat",
-          "desc": "Every job is logged. Successful parameters are remembered for the next run — your expertise, continuously growing."
+          "title": "Apply and confirm",
+          "desc": "Implement the optimized parameters and verify the result with the scanner. Each successful optimization builds your process knowledge."
         }
       ]
     },
     "management": {
-      "title": "The business case is clear.",
-      "subtitle": "Hard numbers. Fast payback. Sustainable competitive advantage.",
+      "title": "Tangible benefits for your production.",
+      "subtitle": "Reliable quality, lower scrap rates, and faster setup — without requiring expert knowledge.",
       "kpis": [
-        { "value": "-18%", "label": "Operating cost per part", "detail": "Through reduced scrap, fewer reworks, and optimized gas consumption" },
-        { "value": "6 mo", "label": "Average ROI timeline", "detail": "Based on TRUMPF customer data across SME and enterprise deployments" },
-        { "value": "+35%", "label": "Production throughput", "detail": "Achieved by eliminating setup bottlenecks and reducing unplanned stops" },
-        { "value": "-40%", "label": "Scrap rate reduction", "detail": "Consistent parameter quality eliminates the #1 cause of laser cutting waste" }
+        { "value": "2 modes", "label": "Flexible optimization methods", "detail": "AI mode for direct recommendations, Bandwidth mode for the complete material and process range" },
+        { "value": "3 steps", "label": "From scan to solution", "detail": "Scan the cutting edge, select the issue, apply the optimization — guided dialog, no expertise needed" },
+        { "value": "9+ combos", "label": "Material/gas coverage (Bandwidth)", "detail": "Mild Steel (N₂, Mixed Gas, O₂, Air), Stainless Steel (N₂), Aluminum (N₂, Gasmix, O₂, Air)" },
+        { "value": "2D laser", "label": "Purpose-built for TRUMPF 2D machines", "detail": "Optimized for Highspeed and MD5 series — seamlessly integrated into your existing TRUMPF machine" }
       ],
-      "cta": "Download the full ROI white paper"
+      "cta": "Request a product demonstration"
     }
   },
   "demo": {
     "operator": {
       "title": "See it live — in 90 seconds.",
-      "subtitle": "Watch how a machine operator loads a new job, reviews the AI parameter recommendation, and starts cutting — all in under 90 seconds.",
-      "cta": "Request a live demo"
+      "subtitle": "Watch how an operator scans the cutting edge, selects the cutting issue, and receives optimized parameters — using AI mode or Bandwidth mode.",
+      "cta": "Watch product video"
     },
     "management": {
-      "title": "A 3-minute executive briefing.",
-      "subtitle": "See how TRUMPF customers in precision manufacturing reduced part costs and accelerated production cycles with the Cutting Assistant.",
-      "cta": "Schedule a briefing"
+      "title": "A quick product overview.",
+      "subtitle": "See how the TRUMPF Cutting Assistant guides your team through cutting edge optimization — saving material costs and improving quality consistency.",
+      "cta": "Request a demonstration"
     },
     "play_label": "Play video",
-    "video_caption": "Cutting Assistant — Live Demo"
+    "video_caption": "Cutting Assistant — Product video"
   },
   "testimonials": {
     "operator": [
       {
-        "quote": "Before the Cutting Assistant, every new material meant 30 minutes of trial and error. Now I load the job, confirm the parameters, and we're cutting. It's that simple.",
+        "quote": "Before the Cutting Assistant, adjusting parameters for a new material batch meant a lot of trial and error. Now the scanner tells me exactly what's wrong and I follow the guided steps. Done in minutes.",
         "name": "Markus Weber",
         "role": "CNC Laser Operator",
         "company": "Metallbau Schulz GmbH"
       },
       {
-        "quote": "The collision avoidance alone has saved us from at least three nozzle crashes this month. Those repairs used to cost us half a day and a lot of frustration.",
+        "quote": "The handheld scanner changed how I assess cut quality. Instead of guessing from visual inspection, I get actual roughness and burr height in micrometers. That's a real difference.",
         "name": "Sandra Hofmann",
         "role": "Production Technician",
         "company": "Blechwerk Rhein-Main"
       },
       {
-        "quote": "I was skeptical about AI making the cutting decisions. But after a month, I trust it more than my own experience on tricky materials. It just doesn't get tired.",
+        "quote": "I was skeptical about using AI for parameter optimization. But the dialog guides you so clearly that even our newest team members get reliable results — especially with tricky materials.",
         "name": "Thomas Kunze",
         "role": "Senior Machine Operator",
         "company": "Precision Parts Bavaria"
@@ -160,19 +160,19 @@
     ],
     "management": [
       {
-        "quote": "We cut our cost per part by 16% in the first quarter after deployment. The ROI was faster than anything our team projected — we were fully amortized in 5 months.",
+        "quote": "The Cutting Assistant reduced our scrap rate significantly when processing non-standard material batches. The dialog-guided process works even without a specialist at the machine.",
         "name": "Dr. Ingrid Bauer",
         "role": "VP Operations",
         "company": "Automotive Supplier Tier 1"
       },
       {
-        "quote": "The Oseon integration meant our MES had live production data from day one. No manual data entry, full traceability. That alone justified the investment for our quality team.",
+        "quote": "What convinced us was the objectivity. The scanner gives measurable values — not just an operator's gut feeling. That's exactly what our quality documentation requires.",
         "name": "Peter Lindemann",
         "role": "COO",
         "company": "EKPO Fuel Cell Technologies"
       },
       {
-        "quote": "Our competitive positioning improved significantly. We can quote faster, deliver faster, and maintain quality consistency that smaller competitors simply cannot match.",
+        "quote": "Especially for fluctuating material quality from different suppliers, the Cutting Assistant is a reliable tool. It adapts the parameters instead of just flagging the problem.",
         "name": "Maria González",
         "role": "Managing Director",
         "company": "Metall-Technik Süd"
@@ -180,78 +180,78 @@
     ]
   },
   "integration": {
-    "title": "Seamlessly integrated into your TRUMPF ecosystem.",
-    "subtitle": "The Cutting Assistant connects natively with TRUMPF's software suite and your existing production environment.",
+    "title": "Designed for your TRUMPF 2D laser cutting machine.",
+    "subtitle": "The Cutting Assistant works with TRUMPF's proven Laser Technology Tables and supports the most common materials and cutting gases.",
     "items": [
-      { "name": "Oseon", "desc": "Manufacturing Execution" },
-      { "name": "TruTops Boost", "desc": "CAM Programming" },
-      { "name": "TruTops Monitor", "desc": "Machine Monitoring" },
-      { "name": "ERP / MES", "desc": "Third-party Systems" },
-      { "name": "OPC UA", "desc": "Industrial IoT" }
+      { "name": "Highspeed", "desc": "Machine series" },
+      { "name": "MD5", "desc": "Machine series" },
+      { "name": "AI mode", "desc": "From March 2026" },
+      { "name": "Bandwidth mode", "desc": "Available now" },
+      { "name": "LTT", "desc": "Laser Technology Table" }
     ]
   },
   "faq": {
     "operator": [
       {
-        "q": "How long does it take to train the system on our materials?",
-        "a": "The Cutting Assistant works from the first job using TRUMPF's global parameter database. It then learns from your specific material batches over time. Most operators report full confidence within the first week."
+        "q": "Which machines does the Cutting Assistant support?",
+        "a": "The Cutting Assistant is designed for TRUMPF 2D laser cutting machines. AI mode is available for the Highspeed and MD5 series. Bandwidth mode is available across the full process range."
       },
       {
-        "q": "Can it handle all materials and thicknesses?",
-        "a": "Yes — the system supports all standard sheet metals (mild steel, stainless, aluminum, copper, brass) across the full thickness range of your TRUMPF machine. Exotic alloys can be added via custom material profiles."
+        "q": "What is the difference between AI mode and Bandwidth mode?",
+        "a": "AI mode uses an AI model to recommend parameter adjustments based on burr and roughness measurements — available from March 2026 for Mild Steel (N₂, O₂) and Stainless Steel (N₂). Bandwidth mode cuts a series of test parts across a parameter range and is available now for all materials including Aluminum."
       },
       {
-        "q": "What happens if the AI recommends wrong parameters?",
-        "a": "You always have final approval before a cut starts. The system shows its confidence level and lets you override any parameter. If you override, the assistant learns from your correction and improves future recommendations."
+        "q": "Which materials does AI mode support?",
+        "a": "AI mode currently supports Mild Steel with Nitrogen, Mild Steel with Oxygen, and Stainless Steel with Nitrogen on Highspeed and MD5 machines. Aluminum, Copper, Brass, and other materials are handled via Bandwidth mode."
       },
       {
-        "q": "Does it work with our existing cutting programs?",
-        "a": "Yes. The Cutting Assistant works with programs created in TruTops Boost and all standard DXF/DWG formats. No reprogramming required."
+        "q": "Do I need experience to use the Cutting Assistant?",
+        "a": "No. The dialog-guided process is designed so that even inexperienced users can optimize cutting data like a pro in just a few minutes. The system guides you step by step through scanning, issue selection, and parameter optimization."
       },
       {
-        "q": "What happens during a network outage?",
-        "a": "All core functions run locally on the machine controller. A network connection is only required for Oseon integration and cloud-based parameter updates."
+        "q": "What does the handheld scanner measure?",
+        "a": "The handheld scanner provides an objective assessment of the cutting edge — displaying roughness and burr height in micrometers. This replaces subjective visual inspection with reproducible, measurable quality data."
       }
     ],
     "management": [
       {
-        "q": "What is the typical implementation timeline?",
-        "a": "Standard deployment takes 2–4 weeks including machine integration, operator training, and system validation. Enterprise deployments with complex MES integration typically take 6–8 weeks."
+        "q": "When will AI mode be available?",
+        "a": "AI mode is available from March 2026 for Mild Steel (N₂, O₂) and Stainless Steel (N₂) on Highspeed and MD5 machines. Bandwidth mode is available now and covers the complete process range including Aluminum."
       },
       {
-        "q": "What does the license model look like?",
-        "a": "The Cutting Assistant is available as a per-machine annual subscription or as a one-time license with optional support contract. Volume pricing is available for multi-machine deployments. Contact TRUMPF sales for a detailed quote."
+        "q": "What hardware is required?",
+        "a": "The Cutting Assistant runs on the TRUMPF machine. In addition, the handheld scanner is required for scanning the cutting edge as part of the optimization workflow."
       },
       {
-        "q": "How does it integrate with our existing MES or ERP?",
-        "a": "The Cutting Assistant integrates natively with TRUMPF Oseon. For third-party MES/ERP systems, data exchange is handled via OPC UA, REST API, or standard file-based interfaces. TRUMPF's integration team supports the setup."
+        "q": "Which materials and gases are supported in Bandwidth mode?",
+        "a": "Bandwidth mode supports the complete process range: Mild Steel (Nitrogen, Mixed Gas, Oxygen, Air), Stainless Steel (Nitrogen), and Aluminum (Nitrogen, Gasmix, Oxygen, Air). It is also suitable for cutting issues where the cutting edge cannot be scanned."
       },
       {
-        "q": "What level of IT infrastructure is required?",
-        "a": "The software runs on the TRUMPF machine controller — no separate server hardware is required for core functions. Oseon integration requires network connectivity. Cloud features require internet access but operate on a secure, isolated channel."
+        "q": "Can operators without laser expertise use this system?",
+        "a": "Yes. The dialog-guided process is specifically designed for users without deep laser expertise. The system guides them through each step — from scanning to issue selection to parameter adjustment."
       },
       {
-        "q": "What is included in the support package?",
-        "a": "Standard support includes software updates, parameter database updates, and remote diagnostics. Premium support adds dedicated application engineering and on-site response SLAs."
+        "q": "Where can I see the Cutting Assistant in action?",
+        "a": "A product video is available at https://www.trumpf.info/fsbpmj. You can also request a live demonstration at any TRUMPF showroom. Contact TRUMPF Machine Tools Germany Sales + Service GmbH + Co. KG for details."
       }
     ]
   },
   "cta": {
     "operator": {
-      "headline": "Ready to cut smarter?",
-      "subheadline": "Experience the Cutting Assistant live on your TRUMPF machine. No commitment — just results.",
-      "btn_primary": "Request a free demo",
-      "btn_secondary": "Download spec sheet"
+      "headline": "Ready to optimize your cutting edges?",
+      "subheadline": "Watch the product video or request a live demonstration of the Cutting Assistant on your TRUMPF 2D laser cutting machine.",
+      "btn_primary": "Watch product video",
+      "btn_secondary": "Request a demonstration"
     },
     "management": {
-      "headline": "See the ROI for your facility.",
-      "subheadline": "Our application engineers calculate the specific cost savings and payback period for your production environment — free of charge.",
-      "btn_primary": "Talk to sales",
-      "btn_secondary": "Download ROI white paper"
+      "headline": "Improve cut quality and reduce scrap.",
+      "subheadline": "The TRUMPF Cutting Assistant helps your team optimize cutting parameters — guided, objective, and suitable for non-standard materials.",
+      "btn_primary": "Contact TRUMPF sales",
+      "btn_secondary": "Request a demonstration"
     }
   },
   "footer": {
-    "tagline": "Powering the future of sheet metal fabrication.",
+    "tagline": "AI-assisted cutting edge optimization for your 2D laser cutting machine.",
     "links": {
       "company": "TRUMPF SE + Co. KG",
       "privacy": "Privacy Policy",
