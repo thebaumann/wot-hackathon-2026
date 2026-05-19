@@ -17,6 +17,7 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
 import AppHeader from './components/layout/AppHeader.vue'
 import AppFooter from './components/layout/AppFooter.vue'
 import HeroSection from './components/sections/HeroSection.vue'
@@ -28,4 +29,17 @@ import TestimonialsSection from './components/sections/TestimonialsSection.vue'
 import IntegrationSection from './components/sections/IntegrationSection.vue'
 import FaqSection from './components/sections/FaqSection.vue'
 import CtaSection from './components/sections/CtaSection.vue'
+
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    (entries) => entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible')
+        observer.unobserve(e.target)
+      }
+    }),
+    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+  )
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el))
+})
 </script>

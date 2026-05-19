@@ -9,7 +9,11 @@ const LANGUAGES = [
   { code: 'ja', label: '日本語', flag: 'JA' }
 ]
 
-const currentLang = ref(i18next.language?.slice(0, 2) || 'en')
+const currentLang = ref(i18next.resolvedLanguage?.slice(0, 2) || i18next.language?.slice(0, 2) || 'en')
+
+i18next.on('languageChanged', (lng) => {
+  currentLang.value = lng.slice(0, 2)
+})
 
 export function useLanguage() {
   async function setLanguage(code) {
