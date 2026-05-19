@@ -149,5 +149,26 @@
     "links": { "company": "TRUMPF SE + Co. KG", "privacy": "プライバシーポリシー", "imprint": "法的通知", "contact": "お問い合わせ", "careers": "採用情報" },
     "copyright": "© 2026 TRUMPF SE + Co. KG. 無断複写・転載を禁じます。",
     "address": "Johann-Maus-Str. 2, 71254 Ditzingen, ドイツ"
+  },
+  "chatbot": {
+    "title": "カッティングアシスタント",
+    "subtitle": "AIサポート",
+    "typing": "入力中...",
+    "greeting_operator": "こんにちは！TRUMPFのAIアシスタントです。設定、材料、パラメーターについてお手伝いします。何をお知りになりたいですか？",
+    "greeting_management": "こんにちは！TRUMPFのAIアシスタントです。ROI、導入、ライセンスに関するご質問にお答えします。どのようにお手伝いできますか？",
+    "placeholder": "カッティングアシスタントについて質問してください...",
+    "error": "現在接続に問題があります。もう一度お試しください。",
+    "suggestions": {
+      "operator": [
+        "新しいマテリアルプロファイルの設定方法は？",
+        "AIパラメーターを上書きするとどうなりますか？",
+        "現在の切断プログラムに対応できますか？"
+      ],
+      "management": [
+        "ROIの一般的な回収期間は？",
+        "MESとの統合方法は？",
+        "ライセンスモデルはどのようなものですか？"
+      ]
+    }
   }
 }

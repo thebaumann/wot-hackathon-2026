@@ -149,5 +149,26 @@
     "links": { "company": "TRUMPF SE + Co. KG", "privacy": "Política de privacidad", "imprint": "Aviso legal", "contact": "Contacto", "careers": "Empleo" },
     "copyright": "© 2026 TRUMPF SE + Co. KG. Todos los derechos reservados.",
     "address": "Johann-Maus-Str. 2, 71254 Ditzingen, Alemania"
+  },
+  "chatbot": {
+    "title": "Cutting Assistant",
+    "subtitle": "Soporte con IA",
+    "typing": "Escribiendo...",
+    "greeting_operator": "¡Hola! Soy el asistente IA de TRUMPF. Puedo ayudarle con la configuración, materiales y parámetros. ¿En qué puedo ayudarle?",
+    "greeting_management": "¡Hola! Soy el asistente IA de TRUMPF. Puedo responder sus preguntas sobre ROI, implementación y licencias. ¿Cómo puedo ayudarle?",
+    "placeholder": "Hágame una pregunta sobre el Cutting Assistant...",
+    "error": "Tengo problemas de conexión ahora mismo. Por favor, inténtelo de nuevo.",
+    "suggestions": {
+      "operator": [
+        "¿Cómo configuro un nuevo perfil de material?",
+        "¿Qué pasa si anulo los parámetros de IA?",
+        "¿Puede manejar mis programas de corte actuales?"
+      ],
+      "management": [
+        "¿Cuál es el plazo típico de ROI?",
+        "¿Cómo se integra con nuestro MES?",
+        "¿Cómo es el modelo de licencia?"
+      ]
+    }
   }
 }

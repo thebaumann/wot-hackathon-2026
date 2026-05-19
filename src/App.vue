@@ -13,6 +13,7 @@
       <CtaSection id="contact" />
     </main>
     <AppFooter />
+    <ChatbotButton />
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import TestimonialsSection from './components/sections/TestimonialsSection.vue'
 import IntegrationSection from './components/sections/IntegrationSection.vue'
 import FaqSection from './components/sections/FaqSection.vue'
 import CtaSection from './components/sections/CtaSection.vue'
+import ChatbotButton from './components/chatbot/ChatbotButton.vue'
 
 onMounted(() => {
   const observer = new IntersectionObserver(

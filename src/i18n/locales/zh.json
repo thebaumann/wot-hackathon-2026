@@ -1,0 +1,174 @@
+{
+  "lang": "zh",
+  "nav": {
+    "features": "功能",
+    "benefits": "优势",
+    "demo": "演示",
+    "faq": "常见问题",
+    "contact": "联系我们",
+    "request_demo": "申请演示"
+  },
+  "audience": {
+    "operator": "机器操作员",
+    "management": "管理层 / 高管",
+    "switch_label": "我是"
+  },
+  "hero": {
+    "badge": "AI激光切割解决方案",
+    "operator": {
+      "headline": "更智能地切割 — 而非更努力。",
+      "subheadline": "TRUMPF切割助手自动优化您的激光切割参数 — 减少错误、更快设置、更好结果。从第一个零件开始。",
+      "cta_primary": "查看实际效果",
+      "cta_secondary": "了解更多"
+    },
+    "management": {
+      "headline": "最大化每次激光切割的投资回报。",
+      "subheadline": "将运营成本降低高达18%，并在6个月内实现完整的投资回报。TRUMPF切割助手将激光切割转化为竞争优势。",
+      "cta_primary": "计算您的投资回报",
+      "cta_secondary": "高管概览"
+    }
+  },
+  "stats": {
+    "operator": [
+      { "value": 45, "suffix": "%", "prefix": "-", "label": "设置时间减少" },
+      { "value": 60, "suffix": "%", "prefix": "-", "label": "参数错误减少" },
+      { "value": 30, "suffix": "%", "prefix": "+", "label": "首次切割成功率" },
+      { "value": 2, "suffix": "×", "prefix": "", "label": "作业切换速度提升" }
+    ],
+    "management": [
+      { "value": 18, "suffix": "%", "prefix": "-", "label": "运营成本降低" },
+      { "value": 6, "suffix": " 月", "prefix": "", "label": "完整投资回报" },
+      { "value": 35, "suffix": "%", "prefix": "+", "label": "产量提升" },
+      { "value": 99.2, "suffix": "%", "prefix": "", "label": "机器正常运行时间" }
+    ]
+  },
+  "features": {
+    "title": "切割助手的功能",
+    "subtitle": "六项强大的AI功能 — 无缝集成到您的TRUMPF机器中。",
+    "items": [
+      { "id": "param_opt", "title": "自动参数优化", "desc": "分析材料类型、厚度和切割几何形状，自动选择最佳激光功率、速度和气压。设置时间从30分钟减少到2分钟以内。", "icon": "settings" },
+      { "id": "adaptive", "title": "自适应切割", "desc": "实时传感器反馈持续调整切割参数，以补偿材料变化、热效应和工件变形。", "icon": "adaptive" },
+      { "id": "collision", "title": "碰撞避免", "desc": "AI路径规划防止喷嘴与切割零件发生碰撞，大幅减少计划外停机和零件损坏。", "icon": "shield" },
+      { "id": "material", "title": "材料检测", "desc": "摄像头和传感器融合在切割前识别材料类型和表面状况，自动确认正确的参数集。", "icon": "scan" },
+      { "id": "oseon", "title": "Oseon集成", "desc": "与TRUMPF Oseon MES软件无缝数据交换，用于作业调度、完整追溯和生产报告。", "icon": "connect" },
+      { "id": "setup", "title": "一键作业设置", "desc": "导入新的切割作业，助手负责其余工作 — 参数选择、套料优化和预运行检查。几秒钟内准备就绪。", "icon": "click" }
+    ]
+  },
+  "benefits": {
+    "operator": {
+      "title": "专为车间设计。",
+      "subtitle": "减少猜测。提高产量。班班如一的质量。",
+      "steps": [
+        { "number": "01", "title": "加载作业", "desc": "导入您的切割文件。切割助手自动读取几何和材料数据。" },
+        { "number": "02", "title": "AI选择最优参数", "desc": "几秒钟内，助手根据数千个切割配置文件提出最佳激光功率、速度和气体设置。" },
+        { "number": "03", "title": "放心切割", "desc": "传感器实时监控每次切割。如果条件发生变化，参数会自动调整。" },
+        { "number": "04", "title": "审查并重复", "desc": "每个作业都被记录。成功的参数会被记住用于下次运行。" }
+      ]
+    },
+    "management": {
+      "title": "商业案例很清晰。",
+      "subtitle": "具体数字。快速回报。可持续竞争优势。",
+      "kpis": [
+        { "value": "-18%", "label": "每件运营成本", "detail": "通过减少废料、减少返工和优化气体消耗" },
+        { "value": "6个月", "label": "平均投资回报期", "detail": "基于TRUMPF客户数据" },
+        { "value": "+35%", "label": "生产吞吐量", "detail": "通过消除设置瓶颈实现" },
+        { "value": "-40%", "label": "废品率降低", "detail": "一致的参数质量消除了激光切割废料的主要原因" }
+      ],
+      "cta": "下载投资回报白皮书"
+    }
+  },
+  "demo": {
+    "operator": {
+      "title": "90秒内实时查看。",
+      "subtitle": "观看机器操作员如何在90秒内加载新作业、审查AI参数建议并开始切割。",
+      "cta": "申请现场演示"
+    },
+    "management": {
+      "title": "3分钟高管简报。",
+      "subtitle": "了解TRUMPF精密制造客户如何通过切割助手降低零件成本和加快生产周期。",
+      "cta": "安排简报"
+    },
+    "play_label": "播放视频",
+    "video_caption": "切割助手 — 现场演示"
+  },
+  "testimonials": {
+    "operator": [
+      { "quote": "在使用切割助手之前，每种新材料都意味着30分钟的试错。现在我加载作业、确认参数，然后开始切割。就是这么简单。", "name": "Markus Weber", "role": "CNC激光操作员", "company": "Metallbau Schulz GmbH" },
+      { "quote": "仅碰撞避免功能本月就为我们避免了至少三次喷嘴撞击。以前这些修复需要花费半天时间。", "name": "Sandra Hofmann", "role": "生产技术员", "company": "Blechwerk Rhein-Main" },
+      { "quote": "我对AI做出切割决策持怀疑态度。但一个月后，在处理棘手材料时，我比自己的经验更信任它。", "name": "Thomas Kunze", "role": "高级机器操作员", "company": "Precision Parts Bavaria" }
+    ],
+    "management": [
+      { "quote": "部署后第一季度我们将每件成本降低了16%。投资回报比团队所有预测都快——5个月内完全摊销。", "name": "Dr. Ingrid Bauer", "role": "运营副总裁", "company": "汽车供应商Tier 1" },
+      { "quote": "Oseon集成意味着我们的MES从第一天就有了实时生产数据。无需手动数据输入，完整追溯。", "name": "Peter Lindemann", "role": "首席运营官", "company": "EKPO Fuel Cell Technologies" },
+      { "quote": "我们的竞争定位显著改善。我们能更快报价、更快交付，并保持较小竞争对手根本无法匹敌的质量一致性。", "name": "Maria González", "role": "总经理", "company": "Metall-Technik Süd" }
+    ]
+  },
+  "integration": {
+    "title": "无缝集成到您的TRUMPF生态系统。",
+    "subtitle": "切割助手与TRUMPF软件套件和您现有的生产环境原生连接。",
+    "items": [
+      { "name": "Oseon", "desc": "制造执行系统" },
+      { "name": "TruTops Boost", "desc": "CAM编程" },
+      { "name": "TruTops Monitor", "desc": "机器监控" },
+      { "name": "ERP / MES", "desc": "第三方系统" },
+      { "name": "OPC UA", "desc": "工业物联网" }
+    ]
+  },
+  "faq": {
+    "operator": [
+      { "q": "培训系统了解我们的材料需要多长时间？", "a": "切割助手从第一个作业就使用TRUMPF全球参数数据库运行。然后随着时间的推移从您的特定材料批次中学习。" },
+      { "q": "它能处理所有材料和厚度吗？", "a": "是的 — 系统支持TRUMPF机器全厚度范围内的所有标准板材。" },
+      { "q": "如果AI推荐了错误的参数怎么办？", "a": "切割开始前您始终有最终批准权。系统显示其置信度，并允许您覆盖任何参数。" },
+      { "q": "它能与我们现有的切割程序配合使用吗？", "a": "是的。切割助手与TruTops Boost创建的程序和所有标准DXF/DWG格式配合使用。" },
+      { "q": "网络中断时会发生什么？", "a": "所有核心功能都在机器控制器上本地运行。" }
+    ],
+    "management": [
+      { "q": "典型的实施周期是多长时间？", "a": "标准部署需要2-4周，包括机器集成、操作员培训和系统验证。" },
+      { "q": "许可模式是什么样的？", "a": "切割助手可作为每台机器的年度订阅或带有可选支持合同的一次性许可证提供。" },
+      { "q": "它如何与我们现有的MES或ERP集成？", "a": "切割助手与TRUMPF Oseon原生集成。对于第三方系统，数据交换通过OPC UA、REST API或标准文件接口进行。" },
+      { "q": "需要什么级别的IT基础设施？", "a": "软件在TRUMPF机器控制器上运行 — 核心功能不需要单独的服务器硬件。" },
+      { "q": "支持包包含什么内容？", "a": "标准支持包括软件更新、参数数据库更新和远程诊断。" }
+    ]
+  },
+  "cta": {
+    "operator": {
+      "headline": "准备好更智能地切割了吗？",
+      "subheadline": "在您的TRUMPF机器上实时体验切割助手。无需承诺 — 只要结果。",
+      "btn_primary": "申请免费演示",
+      "btn_secondary": "下载规格表"
+    },
+    "management": {
+      "headline": "查看您设施的投资回报。",
+      "subheadline": "我们的应用工程师为您的生产环境计算具体的成本节省和回收期 — 免费。",
+      "btn_primary": "联系销售",
+      "btn_secondary": "下载投资回报白皮书"
+    }
+  },
+  "footer": {
+    "tagline": "推动钣金加工的未来。",
+    "links": { "company": "TRUMPF SE + Co. KG", "privacy": "隐私政策", "imprint": "法律声明", "contact": "联系我们", "careers": "招聘" },
+    "copyright": "© 2026 TRUMPF SE + Co. KG. 版权所有。",
+    "address": "Johann-Maus-Str. 2, 71254 Ditzingen, 德国"
+  },
+  "chatbot": {
+    "title": "切割助手",
+    "subtitle": "AI驱动支持",
+    "typing": "正在输入...",
+    "greeting_operator": "您好！我是TRUMPF的AI助手。我可以帮助您了解设置、材料和参数。您想了解什么？",
+    "greeting_management": "您好！我是TRUMPF的AI助手。我可以回答您关于投资回报、实施和许可的问题。我能如何帮助您？",
+    "placeholder": "向我询问有关切割助手的任何问题...",
+    "error": "我现在连接有问题。请重试。",
+    "suggestions": {
+      "operator": [
+        "如何设置新的材料配置文件？",
+        "覆盖AI参数会发生什么？",
+        "它能处理我当前的切割程序吗？"
+      ],
+      "management": [
+        "典型的投资回报期是多长？",
+        "它如何与我们的MES集成？",
+        "许可模式是什么样的？"
+      ]
+    }
+  }
+}
