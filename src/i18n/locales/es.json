@@ -306,6 +306,18 @@
         "¿Cómo se integra con nuestro MES?",
         "¿Cómo es el modelo de licencia?"
       ]
+    },
+    "dummy_responses": {
+      "operator": [
+        "**Configurar un nuevo perfil de material** es sencillo:\n\n1. Abra el diálogo del Cutting Assistant en su máquina.\n2. Seleccione el tipo de material y el gas de corte — el sistema carga la tabla de tecnología láser (LTT) correspondiente como punto de partida.\n3. Escanee el borde de corte con el escáner portátil para capturar la rugosidad y la altura de rebaba en micrómetros.\n4. Elija el **modo IA** (acero suave o acero inoxidable en Highspeed/MD5, desde marzo de 2026) o el **modo de banda** para todos los demás materiales.\n\nEl diálogo guiado le acompaña en cada paso — no se requiere experiencia previa en parámetros.",
+        "Puede **anular las recomendaciones de la IA** en cualquier momento — el sistema no está bloqueado.\n\nPuntos a tener en cuenta:\n- Las anulaciones se registran para tener una trazabilidad completa.\n- Si el resultado es peor tras una anulación, simplemente vuelva a escanear el borde de corte e inicie un nuevo ciclo de optimización.\n- El sistema se construye sobre las optimizaciones confirmadas — su experiencia en planta retroalimenta el proceso.\n\nLa IA es una guía, no un guardián.",
+        "Sí — el Cutting Assistant funciona **junto con sus programas existentes** sin cambios:\n- Totalmente compatible con los programas CAM de **TruTops Boost** y los formatos estándar **DXF/DWG**.\n- Optimiza los parámetros de corte, no la geometría de las piezas — sus programas permanecen intactos.\n- Funciona directamente en el **controlador de máquina TRUMPF** (series Highspeed y MD5) — no se necesita PC ni servidor adicional.\n\nPuede empezar a utilizarlo en su próximo trabajo sin cambiar su flujo de trabajo."
+      ],
+      "management": [
+        "El **plazo típico de ROI es de aproximadamente 6 meses**, basado en los despliegues actuales de clientes.\n\nCifras clave:\n- **−18 %** de coste operativo por pieza\n- **+35 %** de rendimiento\n- **−40 %** de tasa de rechazo\n- **−45 %** de tiempo de configuración\n\nEl ROI real depende de su volumen de producción, la mezcla de materiales y las tasas de rechazo actuales. Su contacto de ventas de TRUMPF puede proporcionar un cálculo de caso de negocio personalizado para su parque de máquinas.",
+        "El Cutting Assistant se integra perfectamente en su entorno de producción existente:\n\n- **Oseon MES**: intercambio de datos nativo para la planificación de trabajos, trazabilidad e informes de producción.\n- **OPC UA / REST API**: conexión a sistemas MES y ERP de terceros.\n- **TruTops Boost**: compatibilidad directa — sin cambios en los flujos de trabajo CAM existentes.\n\nEl despliegue lleva **2 a 4 semanas** y funciona en el controlador de máquina TRUMPF — no se requiere infraestructura de servidor adicional.",
+        "El Cutting Assistant utiliza un **modelo de licencia de software** — el precio depende de la serie de máquinas y el conjunto de funciones seleccionado (modo IA, modo de banda o ambos).\n\nPara un presupuesto personalizado basado en su parque de máquinas y volumen de producción, póngase en contacto directamente con las ventas de TRUMPF.\n\nSu gestor de cuenta de TRUMPF le explicará el modelo comercial y los paquetes de despliegue disponibles."
+      ]
     }
   }
 }

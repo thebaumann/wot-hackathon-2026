@@ -364,6 +364,18 @@
         "Wie lässt sich das in unser MES integrieren?",
         "Wie sieht das Lizenzmodell aus?"
       ]
+    },
+    "dummy_responses": {
+      "operator": [
+        "**Ein neues Materialprofil einrichten** ist unkompliziert:\n\n1. Öffne den Cutting Assistant Dialog an deiner Maschine.\n2. Wähle Materialtyp und Schneidgas — das System lädt die passende Laser-Technologie-Tabelle (LTT) als Ausgangspunkt.\n3. Scanne die Schnittkante mit dem Handscanner, um Rauheit und Grathöhe in Mikrometern zu erfassen.\n4. Wähle den **KI-Modus** (Baustahl oder Edelstahl auf Highspeed/MD5, ab März 2026) oder den **Bandbreiten-Modus** für alle anderen Materialien.\n\nDer geführte Dialog begleitet dich durch jeden Schritt — kein Parameterwissen erforderlich.",
+        "Du kannst die **KI-Empfehlungen jederzeit überschreiben** — das System ist nicht gesperrt.\n\nWas du beachten solltest:\n- Überschreibungen werden für vollständige Rückverfolgbarkeit protokolliert.\n- Falls das Ergebnis nach einer Überschreibung schlechter ist, scanne die Schnittkante erneut und starte einen neuen Optimierungszyklus.\n- Das System baut auf bestätigten Optimierungen auf — deine Maschinenerfahrung fließt in den Prozess ein.\n\nDie KI ist ein Leitfaden, kein Gatekeeper.",
+        "Ja — der Cutting Assistant funktioniert **parallel zu deinen bestehenden Programmen** ohne Änderungen:\n- Vollständig kompatibel mit **TruTops Boost** CAM-Programmen und Standard-**DXF/DWG**-Formaten.\n- Er optimiert Schneidparameter, nicht die Teilegeometrie — deine Programme bleiben unverändert.\n- Läuft direkt auf dem **TRUMPF Maschinencontroller** (Highspeed- und MD5-Baureihe) — kein separater PC oder Server nötig.\n\nDu kannst ihn beim nächsten Auftrag nutzen, ohne den Workflow zu ändern."
+      ],
+      "management": [
+        "Der typische **ROI liegt bei etwa 6 Monaten**, basierend auf aktuellen Kundeninstallationen.\n\nKennzahlen:\n- **−18 %** Betriebskosten pro Teil\n- **+35 %** Durchsatz\n- **−40 %** Ausschussquote\n- **−45 %** Rüstzeit\n\nDer tatsächliche ROI hängt von deinem Produktionsvolumen, Materialmix und aktuellen Ausschussraten ab. Dein TRUMPF Ansprechpartner kann eine individuelle Business-Case-Kalkulation für deinen Maschinenpark erstellen.",
+        "Der Cutting Assistant lässt sich nahtlos in deine bestehende Produktionsumgebung integrieren:\n\n- **Oseon MES**: nativer Datenaustausch für Jobplanung, Rückverfolgbarkeit und Produktionsreporting.\n- **OPC UA / REST API**: Anbindung an Dritt-MES und ERP-Systeme.\n- **TruTops Boost**: direkte Kompatibilität — keine Änderungen an bestehenden CAM-Workflows.\n\nDie Inbetriebnahme dauert **2–4 Wochen** und läuft auf dem TRUMPF Maschinencontroller — keine zusätzliche Serverinfrastruktur erforderlich.",
+        "Der Cutting Assistant verwendet ein **Software-Lizenzmodell** — der Preis hängt von der Maschinenbaureihe und dem gewählten Funktionsumfang ab (KI-Modus, Bandbreiten-Modus oder beide).\n\nFür ein individuelles Angebot basierend auf deinem Maschinenpark und Produktionsvolumen wende dich bitte direkt an den TRUMPF Vertrieb.\n\nDein TRUMPF Kundenbetreuer erklärt dir das kommerzielle Modell und die verfügbaren Deployment-Pakete."
+      ]
     }
   }
 }

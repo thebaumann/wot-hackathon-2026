@@ -107,10 +107,22 @@ export function useChatbot() {
     isLoading.value = true
 
     const apiKey = import.meta.env.VITE_ANTHROPIC_API_KEY
+    const hasApiKey = apiKey && apiKey !== 'sk-ant-your-key-here'
 
-    if (!apiKey || apiKey === 'sk-ant-your-key-here') {
+    if (!hasApiKey) {
+      const suggestions = i18next.t(`chatbot.suggestions.${audience}`, { returnObjects: true })
+      const idx = Array.isArray(suggestions) ? suggestions.indexOf(text.trim()) : -1
+      const dummyResponse = idx >= 0
+        ? i18next.t(`chatbot.dummy_responses.${audience}.${idx}`)
+        : null
+
       const msg = messages.value.find(m => m.id === assistantId)
-      msg.content = '⚠️ No API key configured. Please add your VITE_ANTHROPIC_API_KEY to the .env file.'
+      if (dummyResponse) {
+        await new Promise(r => setTimeout(r, 700))
+        msg.content = dummyResponse
+      } else {
+        msg.content = '⚠️ No API key configured. Please add your VITE_ANTHROPIC_API_KEY to the .env file.'
+      }
       msg.isStreaming = false
       isLoading.value = false
       return

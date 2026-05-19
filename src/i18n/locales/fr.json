@@ -306,6 +306,18 @@
         "Comment s'intègre-t-il avec notre MES ?",
         "Quel est le modèle de licence ?"
       ]
+    },
+    "dummy_responses": {
+      "operator": [
+        "**Configurer un nouveau profil matériau** est simple :\n\n1. Ouvrez le dialogue Cutting Assistant sur votre machine.\n2. Sélectionnez le type de matériau et le gaz de coupe — le système charge la table de technologie laser (LTT) correspondante comme point de départ.\n3. Scannez le bord de coupe avec le scanner portable pour mesurer la rugosité et la hauteur de bavure en micromètres.\n4. Choisissez le **mode IA** (acier doux ou inox sur Highspeed/MD5, à partir de mars 2026) ou le **mode Bande** pour tous les autres matériaux.\n\nLe dialogue guidé vous accompagne à chaque étape — aucune expertise préalable en paramétrage n'est requise.",
+        "Vous pouvez **remplacer les recommandations de l'IA** à tout moment — le système n'est pas verrouillé.\n\nPoints importants :\n- Les remplacements sont journalisés pour une traçabilité complète.\n- Si le résultat est moins bon après un remplacement, re-scannez simplement le bord de coupe et démarrez un nouveau cycle d'optimisation.\n- Le système s'appuie sur les optimisations confirmées — votre expérience terrain enrichit le processus.\n\nL'IA est un guide, pas un verrou.",
+        "Oui — le Cutting Assistant fonctionne **en parallèle de vos programmes existants** sans modification :\n- Entièrement compatible avec les programmes CAO **TruTops Boost** et les formats standard **DXF/DWG**.\n- Il optimise les paramètres de coupe, pas la géométrie des pièces — vos programmes restent inchangés.\n- Fonctionne directement sur le **contrôleur machine TRUMPF** (séries Highspeed et MD5) — aucun PC ou serveur séparé nécessaire.\n\nVous pouvez commencer à l'utiliser dès votre prochain travail sans modifier votre flux de travail."
+      ],
+      "management": [
+        "Le **délai de ROI typique est d'environ 6 mois**, basé sur les déploiements clients actuels.\n\nChiffres clés :\n- **−18 %** de coût opérationnel par pièce\n- **+35 %** de débit\n- **−40 %** de taux de rebut\n- **−45 %** de temps de réglage\n\nLe ROI réel dépend de votre volume de production, du mix matériaux et des taux de rebut actuels. Votre interlocuteur TRUMPF peut fournir un calcul de business case personnalisé pour votre parc machines.",
+        "Le Cutting Assistant s'intègre parfaitement dans votre environnement de production existant :\n\n- **Oseon MES** : échange de données natif pour la planification des tâches, la traçabilité et le reporting de production.\n- **OPC UA / REST API** : connexion aux systèmes MES et ERP tiers.\n- **TruTops Boost** : compatibilité directe — aucune modification des workflows CAO existants.\n\nLe déploiement prend **2 à 4 semaines** et fonctionne sur le contrôleur machine TRUMPF — aucune infrastructure serveur supplémentaire requise.",
+        "Le Cutting Assistant utilise un **modèle de licence logicielle** — le prix dépend de la série de machines et des fonctionnalités sélectionnées (mode IA, mode Bande, ou les deux).\n\nPour un devis personnalisé basé sur votre parc machines et votre volume de production, contactez directement les ventes TRUMPF.\n\nVotre responsable de compte TRUMPF vous présentera le modèle commercial et les packages de déploiement disponibles."
+      ]
     }
   }
 }
