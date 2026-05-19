@@ -6,7 +6,9 @@ const LANGUAGES = [
   { code: 'en', label: 'English', flag: 'EN' },
   { code: 'fr', label: 'Français', flag: 'FR' },
   { code: 'es', label: 'Español', flag: 'ES' },
-  { code: 'ja', label: '日本語', flag: 'JA' }
+  { code: 'it', label: 'Italiano', flag: 'IT' },
+  { code: 'ja', label: '日本語', flag: 'JA' },
+  { code: 'zh', label: '中文', flag: 'ZH' }
 ]
 
 const currentLang = ref(i18next.resolvedLanguage?.slice(0, 2) || i18next.language?.slice(0, 2) || 'en')
