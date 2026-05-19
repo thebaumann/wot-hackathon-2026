@@ -1,0 +1,153 @@
+{
+  "lang": "es",
+  "nav": {
+    "features": "Funciones",
+    "benefits": "Beneficios",
+    "demo": "Demo",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "request_demo": "Solicitar demo"
+  },
+  "audience": {
+    "operator": "Operador de máquina",
+    "management": "Dirección / C-Level",
+    "switch_label": "Soy"
+  },
+  "hero": {
+    "badge": "Corte láser con IA",
+    "operator": {
+      "headline": "Corte más inteligente — no más duro.",
+      "subheadline": "El TRUMPF Cutting Assistant optimiza automáticamente sus parámetros de corte láser — menos errores, configuración más rápida, mejores resultados. Desde la primera pieza.",
+      "cta_primary": "Ver en acción",
+      "cta_secondary": "Más información"
+    },
+    "management": {
+      "headline": "Maximice el ROI en cada corte láser.",
+      "subheadline": "Reduzca los costes operativos hasta un 18 % y logre el retorno total de la inversión en 6 meses. El TRUMPF Cutting Assistant convierte el corte láser en una ventaja competitiva.",
+      "cta_primary": "Calcular su ROI",
+      "cta_secondary": "Resumen ejecutivo"
+    }
+  },
+  "stats": {
+    "operator": [
+      { "value": 45, "suffix": "%", "prefix": "-", "label": "Reducción del tiempo de configuración" },
+      { "value": 60, "suffix": "%", "prefix": "-", "label": "Menos errores de parámetros" },
+      { "value": 30, "suffix": "%", "prefix": "+", "label": "Éxito en primer corte" },
+      { "value": 2, "suffix": "×", "prefix": "", "label": "Cambios de trabajo más rápidos" }
+    ],
+    "management": [
+      { "value": 18, "suffix": "%", "prefix": "-", "label": "Menores costes operativos" },
+      { "value": 6, "suffix": " mes", "prefix": "", "label": "ROI completo alcanzado" },
+      { "value": 35, "suffix": "%", "prefix": "+", "label": "Aumento del rendimiento" },
+      { "value": 99.2, "suffix": "%", "prefix": "", "label": "Disponibilidad de la máquina" }
+    ]
+  },
+  "features": {
+    "title": "Qué hace el Cutting Assistant",
+    "subtitle": "Seis potentes capacidades de IA — integradas a la perfección en su máquina TRUMPF.",
+    "items": [
+      { "id": "param_opt", "title": "Optimización automática de parámetros", "desc": "Analiza el tipo de material, el grosor y la geometría de corte para seleccionar automáticamente la potencia láser, la velocidad y la presión de gas óptimas.", "icon": "settings" },
+      { "id": "adaptive", "title": "Corte adaptativo", "desc": "La retroalimentación de sensores en tiempo real ajusta continuamente los parámetros de corte para compensar las variaciones de material y los efectos térmicos.", "icon": "adaptive" },
+      { "id": "collision", "title": "Evitación de colisiones", "desc": "La planificación de trayectoria por IA evita costosas colisiones de boquilla con piezas cortadas, reduciendo drásticamente las paradas no planificadas.", "icon": "shield" },
+      { "id": "material", "title": "Detección de material", "desc": "La fusión de cámara y sensores identifica el tipo de material y el estado de la superficie antes de cortar, confirmando automáticamente el conjunto de parámetros correcto.", "icon": "scan" },
+      { "id": "oseon", "title": "Integración Oseon", "desc": "Intercambio de datos fluido con el software MES Oseon de TRUMPF para la programación de trabajos, trazabilidad completa e informes de producción.", "icon": "connect" },
+      { "id": "setup", "title": "Configuración de trabajo con un clic", "desc": "Importe un nuevo trabajo de corte y el asistente se encarga del resto — selección de parámetros, optimización de anidamiento y verificaciones previas.", "icon": "click" }
+    ]
+  },
+  "benefits": {
+    "operator": {
+      "title": "Diseñado para el taller.",
+      "subtitle": "Menos conjeturas. Más producción. Calidad constante — turno a turno.",
+      "steps": [
+        { "number": "01", "title": "Cargar el trabajo", "desc": "Importe su archivo de corte. El Cutting Assistant lee automáticamente los datos de geometría y material." },
+        { "number": "02", "title": "La IA selecciona los parámetros óptimos", "desc": "En segundos, el asistente propone los mejores ajustes de potencia láser, velocidad y gas." },
+        { "number": "03", "title": "Cortar con confianza", "desc": "Los sensores monitorizan cada corte en tiempo real. Si las condiciones cambian, los parámetros se ajustan automáticamente." },
+        { "number": "04", "title": "Revisar y repetir", "desc": "Cada trabajo queda registrado. Los parámetros exitosos se recuerdan para la próxima ejecución." }
+      ]
+    },
+    "management": {
+      "title": "El caso empresarial es claro.",
+      "subtitle": "Números concretos. Retorno rápido. Ventaja competitiva sostenible.",
+      "kpis": [
+        { "value": "-18 %", "label": "Coste operativo por pieza", "detail": "Mediante reducción de desechos, menos retrabajos y consumo de gas optimizado" },
+        { "value": "6 meses", "label": "Plazo medio de ROI", "detail": "Basado en datos de clientes TRUMPF" },
+        { "value": "+35 %", "label": "Producción", "detail": "Logrado eliminando cuellos de botella en la configuración" },
+        { "value": "-40 %", "label": "Reducción de desechos", "detail": "La calidad constante de parámetros elimina la principal causa de desperdicio" }
+      ],
+      "cta": "Descargar libro blanco ROI"
+    }
+  },
+  "demo": {
+    "operator": {
+      "title": "Véalo en vivo — en 90 segundos.",
+      "subtitle": "Vea cómo un operador de máquina carga un nuevo trabajo, revisa la recomendación de parámetros de IA y comienza a cortar — todo en menos de 90 segundos.",
+      "cta": "Solicitar demo en vivo"
+    },
+    "management": {
+      "title": "Un briefing ejecutivo de 3 minutos.",
+      "subtitle": "Descubra cómo los clientes de TRUMPF en fabricación de precisión reducen los costes de piezas y aceleran los ciclos de producción con el Cutting Assistant.",
+      "cta": "Programar un briefing"
+    },
+    "play_label": "Reproducir vídeo",
+    "video_caption": "Cutting Assistant — Demo en vivo"
+  },
+  "testimonials": {
+    "operator": [
+      { "quote": "Antes del Cutting Assistant, cada material nuevo significaba 30 minutos de prueba y error. Ahora cargo el trabajo, confirmo los parámetros y cortamos. Así de simple.", "name": "Markus Weber", "role": "Operador láser CNC", "company": "Metallbau Schulz GmbH" },
+      { "quote": "La evitación de colisiones por sí sola nos ha salvado de al menos tres accidentes de boquilla este mes.", "name": "Sandra Hofmann", "role": "Técnica de producción", "company": "Blechwerk Rhein-Main" },
+      { "quote": "Era escéptico ante la IA tomando las decisiones de corte. Pero después de un mes, confío en ella más que en mi propia experiencia en materiales difíciles.", "name": "Thomas Kunze", "role": "Operador de máquina senior", "company": "Precision Parts Bavaria" }
+    ],
+    "management": [
+      { "quote": "Redujimos nuestro coste por pieza un 16 % en el primer trimestre tras el despliegue. El ROI fue más rápido que todas las proyecciones de nuestro equipo — amortizado en 5 meses.", "name": "Dr. Ingrid Bauer", "role": "VP Operaciones", "company": "Proveedor automotriz Tier 1" },
+      { "quote": "La integración con Oseon significó que nuestro MES tuviera datos de producción en vivo desde el primer día. Sin entrada manual de datos, trazabilidad completa.", "name": "Peter Lindemann", "role": "COO", "company": "EKPO Fuel Cell Technologies" },
+      { "quote": "Nuestro posicionamiento competitivo mejoró significativamente. Podemos cotizar más rápido, entregar más rápido y mantener una consistencia de calidad que los competidores más pequeños simplemente no pueden igualar.", "name": "Maria González", "role": "Directora general", "company": "Metall-Technik Süd" }
+    ]
+  },
+  "integration": {
+    "title": "Integrado a la perfección en su ecosistema TRUMPF.",
+    "subtitle": "El Cutting Assistant se conecta de forma nativa con la suite de software TRUMPF y su entorno de producción existente.",
+    "items": [
+      { "name": "Oseon", "desc": "Manufacturing Execution" },
+      { "name": "TruTops Boost", "desc": "Programación CAM" },
+      { "name": "TruTops Monitor", "desc": "Supervisión de máquina" },
+      { "name": "ERP / MES", "desc": "Sistemas de terceros" },
+      { "name": "OPC UA", "desc": "IoT industrial" }
+    ]
+  },
+  "faq": {
+    "operator": [
+      { "q": "¿Cuánto tiempo lleva entrenar el sistema con nuestros materiales?", "a": "El Cutting Assistant funciona desde el primer trabajo utilizando la base de datos de parámetros global de TRUMPF. Luego aprende de sus lotes de materiales específicos con el tiempo." },
+      { "q": "¿Puede manejar todos los materiales y espesores?", "a": "Sí — el sistema admite todos los metales laminados estándar en todo el rango de espesores de su máquina TRUMPF." },
+      { "q": "¿Qué sucede si la IA recomienda parámetros incorrectos?", "a": "Siempre tiene la aprobación final antes de que comience un corte. El sistema muestra su nivel de confianza y le permite anular cualquier parámetro." },
+      { "q": "¿Funciona con nuestros programas de corte existentes?", "a": "Sí. El Cutting Assistant funciona con programas creados en TruTops Boost y todos los formatos DXF/DWG estándar." },
+      { "q": "¿Qué ocurre durante un corte de red?", "a": "Todas las funciones principales se ejecutan localmente en el controlador de la máquina." }
+    ],
+    "management": [
+      { "q": "¿Cuál es el plazo de implementación típico?", "a": "El despliegue estándar tarda 2 a 4 semanas, incluida la integración de la máquina, la formación del operador y la validación del sistema." },
+      { "q": "¿Cómo es el modelo de licencia?", "a": "El Cutting Assistant está disponible como suscripción anual por máquina o como licencia única con contrato de soporte opcional." },
+      { "q": "¿Cómo se integra con nuestro MES o ERP existente?", "a": "El Cutting Assistant se integra de forma nativa con TRUMPF Oseon. Para sistemas de terceros, el intercambio de datos se realiza a través de OPC UA, API REST o interfaces de archivo estándar." },
+      { "q": "¿Qué nivel de infraestructura de TI se requiere?", "a": "El software se ejecuta en el controlador de la máquina TRUMPF — no se requiere hardware de servidor separado para las funciones principales." },
+      { "q": "¿Qué incluye el paquete de soporte?", "a": "El soporte estándar incluye actualizaciones de software, actualizaciones de la base de datos de parámetros y diagnóstico remoto." }
+    ]
+  },
+  "cta": {
+    "operator": {
+      "headline": "¿Listo para cortar de forma más inteligente?",
+      "subheadline": "Experimente el Cutting Assistant en vivo en su máquina TRUMPF. Sin compromiso — solo resultados.",
+      "btn_primary": "Solicitar una demo gratuita",
+      "btn_secondary": "Descargar ficha técnica"
+    },
+    "management": {
+      "headline": "Vea el ROI para su instalación.",
+      "subheadline": "Nuestros ingenieros de aplicaciones calculan los ahorros específicos y el período de recuperación para su entorno de producción — de forma gratuita.",
+      "btn_primary": "Hablar con ventas",
+      "btn_secondary": "Descargar libro blanco ROI"
+    }
+  },
+  "footer": {
+    "tagline": "Impulsando el futuro de la fabricación de chapa metálica.",
+    "links": { "company": "TRUMPF SE + Co. KG", "privacy": "Política de privacidad", "imprint": "Aviso legal", "contact": "Contacto", "careers": "Empleo" },
+    "copyright": "© 2026 TRUMPF SE + Co. KG. Todos los derechos reservados.",
+    "address": "Johann-Maus-Str. 2, 71254 Ditzingen, Alemania"
+  }
+}

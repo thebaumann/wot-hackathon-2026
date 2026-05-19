@@ -1,0 +1,265 @@
+{
+  "lang": "en",
+  "nav": {
+    "features": "Features",
+    "benefits": "Benefits",
+    "demo": "Demo",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "request_demo": "Request Demo"
+  },
+  "audience": {
+    "operator": "Machine Operator",
+    "management": "Management / C-Level",
+    "switch_label": "I am a"
+  },
+  "hero": {
+    "badge": "AI-Powered Laser Cutting",
+    "operator": {
+      "headline": "Cut smarter — not harder.",
+      "subheadline": "The TRUMPF Cutting Assistant automatically optimizes your laser cutting parameters — fewer errors, faster setup, better results. From the first part.",
+      "cta_primary": "See it in action",
+      "cta_secondary": "Learn more"
+    },
+    "management": {
+      "headline": "Maximize ROI on every laser cut.",
+      "subheadline": "Reduce operating costs by up to 18% and achieve full return on investment within 6 months. The TRUMPF Cutting Assistant turns laser cutting into a competitive advantage.",
+      "cta_primary": "Calculate your ROI",
+      "cta_secondary": "Executive overview"
+    }
+  },
+  "stats": {
+    "operator": [
+      { "value": 45, "suffix": "%", "prefix": "-", "label": "Reduction in setup time" },
+      { "value": 60, "suffix": "%", "prefix": "-", "label": "Fewer parameter errors" },
+      { "value": 30, "suffix": "%", "prefix": "+", "label": "First-cut success rate" },
+      { "value": 2, "suffix": "×", "prefix": "", "label": "Faster job changeovers" }
+    ],
+    "management": [
+      { "value": 18, "suffix": "%", "prefix": "-", "label": "Lower operating cost" },
+      { "value": 6, "suffix": " mo", "prefix": "", "label": "Full ROI achieved" },
+      { "value": 35, "suffix": "%", "prefix": "+", "label": "Throughput increase" },
+      { "value": 99.2, "suffix": "%", "prefix": "", "label": "Machine uptime" }
+    ]
+  },
+  "features": {
+    "title": "What the Cutting Assistant does",
+    "subtitle": "Six powerful AI capabilities — seamlessly integrated into your TRUMPF machine.",
+    "items": [
+      {
+        "id": "param_opt",
+        "title": "Auto Parameter Optimization",
+        "desc": "Analyzes material type, thickness, and cutting geometry to automatically select optimal laser power, speed, and gas pressure. Setup time reduced from 30 minutes to under 2 minutes.",
+        "icon": "settings"
+      },
+      {
+        "id": "adaptive",
+        "title": "Adaptive Cutting",
+        "desc": "Real-time sensor feedback continuously adjusts cutting parameters mid-job to compensate for material variations, thermal effects, and workpiece deformation.",
+        "icon": "adaptive"
+      },
+      {
+        "id": "collision",
+        "title": "Collision Avoidance",
+        "desc": "AI-powered path planning prevents costly nozzle collisions with cut-out parts, dramatically reducing unplanned machine stops and part damage.",
+        "icon": "shield"
+      },
+      {
+        "id": "material",
+        "title": "Material Detection",
+        "desc": "Camera and sensor fusion identifies material type and surface condition before cutting, automatically confirming the correct parameter set.",
+        "icon": "scan"
+      },
+      {
+        "id": "oseon",
+        "title": "Oseon Integration",
+        "desc": "Seamless data exchange with TRUMPF's Oseon manufacturing execution software for job scheduling, full traceability, and production reporting.",
+        "icon": "connect"
+      },
+      {
+        "id": "setup",
+        "title": "One-Click Job Setup",
+        "desc": "Import a new cutting job and the assistant handles the rest — parameter selection, nesting optimization, and pre-run checks. Ready in seconds.",
+        "icon": "click"
+      }
+    ]
+  },
+  "benefits": {
+    "operator": {
+      "title": "Built for the shop floor.",
+      "subtitle": "Less guesswork. More throughput. Consistent quality — shift after shift.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Load your job",
+          "desc": "Import your cutting file. The Cutting Assistant reads the geometry and material data automatically."
+        },
+        {
+          "number": "02",
+          "title": "AI selects optimal parameters",
+          "desc": "Within seconds, the assistant proposes the best laser power, speed, and gas settings — based on thousands of cutting profiles."
+        },
+        {
+          "number": "03",
+          "title": "Cut with confidence",
+          "desc": "Sensors monitor every cut in real time. If conditions change, parameters adjust automatically. No manual intervention required."
+        },
+        {
+          "number": "04",
+          "title": "Review and repeat",
+          "desc": "Every job is logged. Successful parameters are remembered for the next run — your expertise, continuously growing."
+        }
+      ]
+    },
+    "management": {
+      "title": "The business case is clear.",
+      "subtitle": "Hard numbers. Fast payback. Sustainable competitive advantage.",
+      "kpis": [
+        { "value": "-18%", "label": "Operating cost per part", "detail": "Through reduced scrap, fewer reworks, and optimized gas consumption" },
+        { "value": "6 mo", "label": "Average ROI timeline", "detail": "Based on TRUMPF customer data across SME and enterprise deployments" },
+        { "value": "+35%", "label": "Production throughput", "detail": "Achieved by eliminating setup bottlenecks and reducing unplanned stops" },
+        { "value": "-40%", "label": "Scrap rate reduction", "detail": "Consistent parameter quality eliminates the #1 cause of laser cutting waste" }
+      ],
+      "cta": "Download the full ROI white paper"
+    }
+  },
+  "demo": {
+    "operator": {
+      "title": "See it live — in 90 seconds.",
+      "subtitle": "Watch how a machine operator loads a new job, reviews the AI parameter recommendation, and starts cutting — all in under 90 seconds.",
+      "cta": "Request a live demo"
+    },
+    "management": {
+      "title": "A 3-minute executive briefing.",
+      "subtitle": "See how TRUMPF customers in precision manufacturing reduced part costs and accelerated production cycles with the Cutting Assistant.",
+      "cta": "Schedule a briefing"
+    },
+    "play_label": "Play video",
+    "video_caption": "Cutting Assistant — Live Demo"
+  },
+  "testimonials": {
+    "operator": [
+      {
+        "quote": "Before the Cutting Assistant, every new material meant 30 minutes of trial and error. Now I load the job, confirm the parameters, and we're cutting. It's that simple.",
+        "name": "Markus Weber",
+        "role": "CNC Laser Operator",
+        "company": "Metallbau Schulz GmbH"
+      },
+      {
+        "quote": "The collision avoidance alone has saved us from at least three nozzle crashes this month. Those repairs used to cost us half a day and a lot of frustration.",
+        "name": "Sandra Hofmann",
+        "role": "Production Technician",
+        "company": "Blechwerk Rhein-Main"
+      },
+      {
+        "quote": "I was skeptical about AI making the cutting decisions. But after a month, I trust it more than my own experience on tricky materials. It just doesn't get tired.",
+        "name": "Thomas Kunze",
+        "role": "Senior Machine Operator",
+        "company": "Precision Parts Bavaria"
+      }
+    ],
+    "management": [
+      {
+        "quote": "We cut our cost per part by 16% in the first quarter after deployment. The ROI was faster than anything our team projected — we were fully amortized in 5 months.",
+        "name": "Dr. Ingrid Bauer",
+        "role": "VP Operations",
+        "company": "Automotive Supplier Tier 1"
+      },
+      {
+        "quote": "The Oseon integration meant our MES had live production data from day one. No manual data entry, full traceability. That alone justified the investment for our quality team.",
+        "name": "Peter Lindemann",
+        "role": "COO",
+        "company": "EKPO Fuel Cell Technologies"
+      },
+      {
+        "quote": "Our competitive positioning improved significantly. We can quote faster, deliver faster, and maintain quality consistency that smaller competitors simply cannot match.",
+        "name": "Maria González",
+        "role": "Managing Director",
+        "company": "Metall-Technik Süd"
+      }
+    ]
+  },
+  "integration": {
+    "title": "Seamlessly integrated into your TRUMPF ecosystem.",
+    "subtitle": "The Cutting Assistant connects natively with TRUMPF's software suite and your existing production environment.",
+    "items": [
+      { "name": "Oseon", "desc": "Manufacturing Execution" },
+      { "name": "TruTops Boost", "desc": "CAM Programming" },
+      { "name": "TruTops Monitor", "desc": "Machine Monitoring" },
+      { "name": "ERP / MES", "desc": "Third-party Systems" },
+      { "name": "OPC UA", "desc": "Industrial IoT" }
+    ]
+  },
+  "faq": {
+    "operator": [
+      {
+        "q": "How long does it take to train the system on our materials?",
+        "a": "The Cutting Assistant works from the first job using TRUMPF's global parameter database. It then learns from your specific material batches over time. Most operators report full confidence within the first week."
+      },
+      {
+        "q": "Can it handle all materials and thicknesses?",
+        "a": "Yes — the system supports all standard sheet metals (mild steel, stainless, aluminum, copper, brass) across the full thickness range of your TRUMPF machine. Exotic alloys can be added via custom material profiles."
+      },
+      {
+        "q": "What happens if the AI recommends wrong parameters?",
+        "a": "You always have final approval before a cut starts. The system shows its confidence level and lets you override any parameter. If you override, the assistant learns from your correction and improves future recommendations."
+      },
+      {
+        "q": "Does it work with our existing cutting programs?",
+        "a": "Yes. The Cutting Assistant works with programs created in TruTops Boost and all standard DXF/DWG formats. No reprogramming required."
+      },
+      {
+        "q": "What happens during a network outage?",
+        "a": "All core functions run locally on the machine controller. A network connection is only required for Oseon integration and cloud-based parameter updates."
+      }
+    ],
+    "management": [
+      {
+        "q": "What is the typical implementation timeline?",
+        "a": "Standard deployment takes 2–4 weeks including machine integration, operator training, and system validation. Enterprise deployments with complex MES integration typically take 6–8 weeks."
+      },
+      {
+        "q": "What does the license model look like?",
+        "a": "The Cutting Assistant is available as a per-machine annual subscription or as a one-time license with optional support contract. Volume pricing is available for multi-machine deployments. Contact TRUMPF sales for a detailed quote."
+      },
+      {
+        "q": "How does it integrate with our existing MES or ERP?",
+        "a": "The Cutting Assistant integrates natively with TRUMPF Oseon. For third-party MES/ERP systems, data exchange is handled via OPC UA, REST API, or standard file-based interfaces. TRUMPF's integration team supports the setup."
+      },
+      {
+        "q": "What level of IT infrastructure is required?",
+        "a": "The software runs on the TRUMPF machine controller — no separate server hardware is required for core functions. Oseon integration requires network connectivity. Cloud features require internet access but operate on a secure, isolated channel."
+      },
+      {
+        "q": "What is included in the support package?",
+        "a": "Standard support includes software updates, parameter database updates, and remote diagnostics. Premium support adds dedicated application engineering and on-site response SLAs."
+      }
+    ]
+  },
+  "cta": {
+    "operator": {
+      "headline": "Ready to cut smarter?",
+      "subheadline": "Experience the Cutting Assistant live on your TRUMPF machine. No commitment — just results.",
+      "btn_primary": "Request a free demo",
+      "btn_secondary": "Download spec sheet"
+    },
+    "management": {
+      "headline": "See the ROI for your facility.",
+      "subheadline": "Our application engineers calculate the specific cost savings and payback period for your production environment — free of charge.",
+      "btn_primary": "Talk to sales",
+      "btn_secondary": "Download ROI white paper"
+    }
+  },
+  "footer": {
+    "tagline": "Powering the future of sheet metal fabrication.",
+    "links": {
+      "company": "TRUMPF SE + Co. KG",
+      "privacy": "Privacy Policy",
+      "imprint": "Imprint",
+      "contact": "Contact",
+      "careers": "Careers"
+    },
+    "copyright": "© 2026 TRUMPF SE + Co. KG. All rights reserved.",
+    "address": "Johann-Maus-Str. 2, 71254 Ditzingen, Germany"
+  }
+}
