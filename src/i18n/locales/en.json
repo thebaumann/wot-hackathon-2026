@@ -107,18 +107,18 @@
         {
           "number": "04",
           "title": "Apply and confirm",
-          "desc": "Implement the optimized parameters and verify the result with the scanner. Each successful optimization builds your process knowledge."
+          "desc": "Apply the optimized parameters directly to the machine software — no manual reprogramming required. Verify the result with the scanner and repeat the cycle until the desired cut quality is achieved."
         }
       ]
     },
     "management": {
       "title": "Tangible benefits for your production.",
-      "subtitle": "Reliable quality, lower scrap rates, and faster setup — without requiring expert knowledge.",
+      "subtitle": "Reliable quality, lower scrap rates, and faster setup — independent of individual specialist knowledge.",
       "kpis": [
         { "value": "2 modes", "label": "Flexible optimization methods", "detail": "AI mode for direct recommendations, Bandwidth mode for the complete material and process range" },
         { "value": "3 steps", "label": "From scan to solution", "detail": "Scan the cutting edge, select the issue, apply the optimization — guided dialog, no expertise needed" },
         { "value": "9+ combos", "label": "Material/gas coverage (Bandwidth)", "detail": "Mild Steel (N₂, Mixed Gas, O₂, Air), Stainless Steel (N₂), Aluminum (N₂, Gasmix, O₂, Air)" },
-        { "value": "2D laser", "label": "Purpose-built for TRUMPF 2D machines", "detail": "Optimized for Highspeed and MD5 series — seamlessly integrated into your existing TRUMPF machine" }
+        { "value": "2D laser", "label": "Purpose-built for TRUMPF 2D machines", "detail": "Available for TruLaser series machines including Highspeed and MD5 — can typically be retrofitted to existing equipment, protecting your machine investment." }
       ],
       "cta": "Request a product demonstration"
     }
@@ -187,7 +187,8 @@
       { "name": "MD5", "desc": "Machine series" },
       { "name": "AI mode", "desc": "From March 2026" },
       { "name": "Bandwidth mode", "desc": "Available now" },
-      { "name": "LTT", "desc": "Laser Technology Table" }
+      { "name": "LTT", "desc": "Laser Technology Table" },
+      { "name": "Oseon", "desc": "Production control" }
     ]
   },
   "faq": {
@@ -229,6 +230,14 @@
       {
         "q": "Can operators without laser expertise use this system?",
         "a": "Yes. The dialog-guided process is specifically designed for users without deep laser expertise. The system guides them through each step — from scanning to issue selection to parameter adjustment."
+      },
+      {
+        "q": "Can the Cutting Assistant be retrofitted to existing machines?",
+        "a": "The Cutting Assistant is available for many machines in the TruLaser series and can typically be retrofitted to existing equipment — protecting your investment in the machine park."
+      },
+      {
+        "q": "How does the Cutting Assistant fit into a connected production environment?",
+        "a": "Combined with TRUMPF's Oseon software, the Cutting Assistant integrates into a Smart Factory environment. Oseon provides centralized control and analysis of your entire production — including material flow, machine utilization, and optimization potential — enabling truly data-driven process management."
       },
       {
         "q": "Where can I see the Cutting Assistant in action?",

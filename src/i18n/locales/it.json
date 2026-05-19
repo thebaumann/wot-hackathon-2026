@@ -147,13 +147,13 @@
         {
           "number": "04",
           "title": "Applichi e confermi",
-          "desc": "Implementi i parametri ottimizzati e verifichi il risultato con lo scanner. Ogni ottimizzazione riuscita arricchisce le conoscenze di processo."
+          "desc": "Applica i parametri ottimizzati direttamente nel software della macchina — nessuna riprogrammazione manuale necessaria. Verifica il risultato con lo scanner e ripeti il ciclo finché non viene raggiunta la qualità di taglio desiderata."
         }
       ]
     },
     "management": {
       "title": "Vantaggi concreti per la Sua produzione.",
-      "subtitle": "Qualità affidabile, minori tassi di scarto e configurazione più rapida — senza richiedere competenze specialistiche.",
+      "subtitle": "Qualità affidabile, minori scarti e setup più rapido — indipendente dalle competenze specialistiche individuali.",
       "kpis": [
         {
           "value": "2 modalità",
@@ -173,7 +173,7 @@
         {
           "value": "Laser 2D",
           "label": "Progettato per le macchine TRUMPF 2D",
-          "detail": "Ottimizzato per le serie Highspeed e MD5 — integrato perfettamente nella Sua macchina TRUMPF esistente"
+          "detail": "Disponibile per le macchine della serie TruLaser, incluse Highspeed e MD5 — generalmente installabile in aggiunta su impianti esistenti, tutelando così il vostro investimento nel parco macchine."
         }
       ],
       "cta": "Richiedi una dimostrazione del prodotto"
@@ -258,6 +258,10 @@
       {
         "name": "LTT",
         "desc": "Laser Technology Table"
+      },
+      {
+        "name": "Oseon",
+        "desc": "Controllo produzione"
       }
     ]
   },
@@ -300,6 +304,14 @@
       {
         "q": "Possono utilizzare questo sistema operatori senza competenze laser?",
         "a": "Sì. Il processo guidato da dialogo è progettato specificamente per utenti senza una profonda competenza laser. Il sistema li guida attraverso ogni passaggio — dalla scansione alla selezione del problema fino alla regolazione dei parametri."
+      },
+      {
+        "q": "Il Cutting Assistant può essere installato in aggiunta su macchine esistenti?",
+        "a": "Il Cutting Assistant è disponibile per molte macchine della serie TruLaser e può generalmente essere installato in aggiunta su impianti esistenti, tutelando così il vostro investimento nel parco macchine."
+      },
+      {
+        "q": "Come si integra il Cutting Assistant in un ambiente di produzione connesso?",
+        "a": "In combinazione con il software Oseon di TRUMPF, il Cutting Assistant si integra in un ambiente Smart Factory. Oseon consente il controllo e l'analisi centralizzati dell'intera produzione — inclusi flusso materiali, utilizzo macchine e potenziali di ottimizzazione — per una gestione dei processi basata sui dati."
       },
       {
         "q": "Dove posso vedere il Cutting Assistant in azione?",
